@@ -1,0 +1,173 @@
+{
+  "main": {
+    "title": "PROJET INAYA ELARGI: FINANCEMNT BASÉ SUR LA PERFORMANCE DANS LE DOMAINE DE LA SANTÉ EN MAURITANIE",
+    "description": "La Politique Nationale de Santé (PNS) à l’horizon 2030 vise à répondre aux attentes de plus en plus ambitieuses des populations Mauritaniennes en matière de santé. Le renforcement de la gouvernance sanitaire orientée vers le financement basé sur la performance est l’un des axes prioritaires de cette politique de santé.",
+    "imagePath": "/about/image30.png",
+    "sections": [
+      {
+        "title": "CONTEXTE",
+        "description": "Le Financement basé sur la Performance est une approche de réforme du système de santé permettant d’améliorer les mécanismes d’allocation des ressources qui sont toujours rares, de mettre en place une contractualisation stratégique à tous les niveaux de la pyramide sanitaire et de faire certaines réformes nécessaires au développement du secteur de la santé. Cette réforme est basée sur le principe de « changer le financement classique des « inputs » vers un financement des résultats en termes de la quantité, de la qualité et de l’équité »."
+      },
+      {
+        "title": "DESCRIPTIF",
+        "description": "Afin d’améliorer l’état de santé de la population et de trouver des solutions pratiques aux principaux problèmes du système de santé, le Gouvernement compte mettre en oeuvre progressivement, l’approche du financement basé sur la performance (PBF en sigle) dont une stratégie nationale a été validée le 29 septembre 2016 par le conseil des Ministres. Le Plan National de Developpment Sanitaire 2030-2022 avait fixé comme objectif la generéalisation de l’approche PBF sur toutes les formations sanitaires du pays et l’ensemble de regulateurs en 2030. Le Financement basé sur la Performance est une approche permettant d’améliorer les mécanismes d’allocation des ressources qui sont toujours rares, de mettre en place une contractualisation stratégique à tous les niveaux et de faire des réformes nécessaires pour le développement du secteur de la santé."
+      }
+    ],
+    "cards": [
+      {
+        "title": ["01/06/2024", "31/06/2030"],
+        "description": ["Démarrage", "Clôture"],
+        "image": "/about/calendar.svg"
+      },
+      {
+        "title": ["Santé, Mangement, Coaching, Formation, Equité, Humanitaire, Developpement"],
+        "description": ["Secteurs"],
+        "image": "/about/sectors.svg"
+      },
+      {
+        "title": ["Guidimaka, Hodh El Gharbi, Hodh ECharghi, Adrar, Assaba, Brakna, Gorgol"],
+        "description": ["Localisation"],
+        "image": "/about/map-marker.svg"
+      },
+      {
+        "title": ["Etat Mauritanien, Banque Mondiale"],
+        "description": ["Outils de financement"],
+        "image": "/about/financial-contract.svg"
+      },
+      {
+        "title": ["85 000 000 USD"],
+        "description": ["Montant de financement"],
+        "image": "/about/finance.svg"
+      }
+    ],
+    "buttonText": "Télécharger le document"
+  },
+  "organization": {
+    "title": "ORGANISATION",
+    "subtitle": "MONTAGE INSTITUTIONNEL ET FONCTIONNEL DU PBF",
+    "description": "Le dispositif institutionnel du PBF mis en place en Mauritanie respecte le principe de séparation des différentes fonctions :",
+    "cards": [
+      {
+        "title": "Coordination générale et orientation stratégique",
+        "description": "Comité de Pilotage",
+        "image": "/about/coordinate.svg"
+      },
+      {
+        "title": "Régulation",
+        "description": "l’Unité technique FBR ; au niveau intermédiaire par les Directions Régionales de Santé et au niveau opérationnel par les Circonscriptions Sanitaires",
+        "image": "/about/regulation.svg"
+      },
+      {
+        "title": "Ministère des finances (Budget de l‘Etat) et des partenaires (BM et autres)",
+        "description": "",
+        "image": "/about/money-payment.svg"
+      },
+      {
+        "title": "Achat des prestations des structures de santé",
+        "description": "Responsabilité du Conseil Régional (CR). Pour les questions relatives à la mise en oeuvre du PBF, le secrétariat",
+        "image": "/about/buy.svg"
+      },
+      {
+        "title": "Prestation",
+        "description": "Structures de santé",
+        "image": "/about/health-service.svg"
+      },
+      {
+        "title": "Vérification",
+        "description": "Equipe Régionale de Vérification, Direction de la Médecine Hospitalière, Comités de santé, Directions Régionales de Santé, Une équipe désignée par le ministère de la Santé pour l’évaluation du rendrement , l’Inspection Générale du Ministère de la santé.",
+        "image": "/about/buy.svg"
+      },
+      {
+        "title": "Validation",
+        "description": "Conseil Régional",
+        "image": "/about/buy.svg"
+      },
+      {
+        "title": "Paiment",
+        "description": "Direction des Affaires Financières du ministère de la Santé (DAF)",
+        "image": "/about/finance-money-usd.svg"
+      }
+    ]
+  },
+  "impacts": {
+    "title": "IMPACTS",
+    "subtitle": "QUELQUES CHIFFRES ET DONNÉES CLÉS",
+    "cards": [
+      {
+        "title": "INDIGENTS TRAITÉS",
+        "percentage": "78.20",
+        "total": "85 230",
+        "image": "/about/needy.svg"
+      },
+      {
+        "title": "ENFANTS VACCINÉS",
+        "percentage": "81.05",
+        "total": "237 000",
+        "image": "/about/image37.png"
+      },
+      {
+        "title": "PERSONNES FORMÉES",
+        "percentage": "53",
+        "total": "2 450",
+        "image": "/about/image46.png"
+      },
+      {
+        "title": "INDICATEURS ACHÉTÉS",
+        "percentage": "21",
+        "total": "124",
+        "image": "/about/checking.svg"
+      }
+    ],
+    "cards2": [
+      {
+        "title": "INCINÉRATEURS CONSTRUITS",
+        "percentage": "12",
+        "number": "12"
+      },
+      {
+        "title": "FOSA REHABILITÉES",
+        "percentage": "10",
+        "number": "19"
+      },
+      {
+        "title": "CHAMBRES FROIDES",
+        "percentage": "12",
+        "number": "04"
+      }
+    ]
+  },
+  "testimonials": {
+    "cards": [
+      {
+        "title": "SANTÉ MATERNELLE & ENFANTS",
+        "description": "Depuis l'arrivé d'INAYA dans notre commune, les femmes trouvent une aisance, une facilité et une efficacité dans l'accès aux consulations et soins de santé prénatale et postnatale. Quand aux enfants, leurs santés s'ameliorent dans le cadre de petites chirurgies et des traitements de malnutritions dans toutes ses formes.",
+        "image": "/about/image39.jpg",
+        "person": "ANIMATA B. SAKERA",
+        "role": "Présidente de l’Association des Femmes de Dafor"
+      }
+    ],
+    "cards2": [
+      {
+        "description": "INAYA Offre en plus de resultats observables, des données verifiées dans ses zones d'interventions, ce qui nous permet une utilisation sûr des données dans le cadre de nos recherches.",
+        "image": "/about/image45.jpg",
+        "person": "MARIA HARA MENDES",
+        "role": "Responsable Santé Maternelle & Infantile, OMS Mauritanie"
+      }
+    ],
+    "cards3": [
+      {
+        "title": "PARTENAIRES TECHNIQUES",
+        "description": "A Travers INAYA, le HCR a pu accélerer son programme de prise en charge des réfugiés dans le CAMP de Mberra, cette collaboration à permis une couverture complete des occupants du CAMP en ce qui concernent les indicateurs achétés par INAYA.",
+        "image": "/about/image40.jpg",
+        "person": "HUGO J HERMANOS",
+        "role": "Directeur des operations HCR au camp de mbera"
+      }
+    ],
+    "cards4": [
+      {
+        "title": "SAUVEGARDE ENVIRONNEMENTALE & SOCIALE",
+        "image": "/about/image40.jpg"
+      }
+    ]
+  }
+}

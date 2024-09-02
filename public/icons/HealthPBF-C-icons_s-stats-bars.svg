@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #010101;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 7px;
+      }
+    </style>
+  </defs>
+  <path id="stats-bars" class="cls-1" d="m37.11,89.52v156.48M128,10v236m90.89-84.65v84.65"/>
+</svg>

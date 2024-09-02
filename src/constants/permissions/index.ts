@@ -1,0 +1,158 @@
+export const PERMISSIONS: any = {
+  file: {
+    read: 'FILE:READ',
+    write: 'FILE:ADD',
+    update: 'FILE:DATAMNGR',
+    delete: 'FILE:DELETE'
+  },
+  fileType: {
+    read: 'fileType:read',
+    write: 'fileType:write',
+    update: 'fileType:update',
+    delete: 'fileType:delete'
+  },
+  element: {
+    read: 'ELEMENTS:READ',
+    write: 'ELEMENTS:ADD',
+    update: 'ELEMENTS:EDIT',
+    delete: 'ELEMENTS:DELETE'
+  },
+  zone: {
+    read: 'ZONE:READ',
+    write: 'ZONE:ADD',
+    update: 'ZONE:EDIT',
+    delete: 'ZONE:DEL'
+  },
+  entity: {
+    read: 'ENTITY:READ',
+    write: 'ENTITY:ADD',
+    update: 'ENTITY:EDITENTITY',
+    delete: 'ENTITY:DELENTITY'
+  },
+  entityType: {
+    read: 'ENTITY_TYPE:READ',
+    write: 'ENTITY_TYPE:ADD',
+    update: 'ENTITY_TYPE:EDIT',
+    delete: 'ENTITY_TYPE:DEL'
+  },
+  entityClass: {
+    read: 'ENTITY_CLASS:READ',
+    write: 'ENTITY_CLASS:ADD',
+    update: 'ENTITY_CLASS:EDIT',
+    delete: 'ENTITY_CLASS:DEL'
+  },
+  cms: {
+    read: 'CMS:READ',
+    write: 'CMS:ADD',
+    update: 'CMS:EDIT',
+    delete: 'CMS:DEL'
+  },
+  contracts: {
+    read: 'CONTRACTS:READ',
+    write: 'CONTRACTS:ADD',
+    update: 'CONTRACTS:EDIT',
+    delete: 'CONTRACTS:DEL'
+  },
+  contractTypes: {
+    read: 'CONTRACT_TYPES:READ',
+    write: 'CONTRACT_TYPES:ADD',
+    update: 'CONTRACT_TYPES:EDIT',
+    delete: 'CONTRACT_TYPES:DEL'
+  },
+  bankAccounts: {
+    read: 'BANK_ACCOUNTS:READ',
+    write: 'BANK_ACCOUNTS:ADD',
+    update: 'BANK_ACCOUNTS:EDIT',
+    delete: 'BANK_ACCOUNTS:DEL'
+  },
+  Gestion_acces: {
+    read: 'USER:READ',
+    write: 'USER:ADD',
+    update: 'USER:EDIT',
+    delete: 'USER:DEL'
+  },
+  bank: {
+    read: 'BANKS:READ',
+    write: 'BANKS:ADD',
+    update: 'BANKS:EDIT',
+    delete: 'BANKS:DEL'
+  },
+  completeness: {
+    read: 'completeness:read'
+  },
+  permissionRequest: {
+    read: 'permissionRequest:read',
+    approve: 'permissionRequest:approve',
+    reject: 'permissionRequest:reject'
+  },
+  report: {
+    factureMensuelleEcd: 'REPORT:FACTURE_MENSUELLE_ECD',
+    factureMensuelleFosa: 'REPORT:FACTURE_MENSUELLE_FOSA',
+    factureMensuelleMutuelles: 'REPORT:FACTURE_MENSUELLE_MUTUELLES',
+    factureTrimestrielleEcd: 'REPORT:FACTURE_TRIMESTRIELLE_ECD',
+    factureTrimestrielleFosa: 'REPORT:FACTURE_TRIMESTRIELLE_FOSA',
+    invoiceDet: 'REPORT:INVOICE_DET',
+    invoices: 'REPORT:INVOICES',
+    monthlyPaymentOrder: 'REPORT:MONTHLY_PAYMENT_ORDER',
+    monthlyPaymentRequest: 'REPORT:MONTHLY_PAYMENT_REQUEST',
+    quarterlyConsolidated: 'REPORT:QUARTERLY_CONSOLIDATED',
+    quarterlyPaymentOrder: 'REPORT:QUARTERLY_PAYMENT_ORDER',
+    rapportBm: 'REPORT:RAPPORT_BM'
+  },
+  dashboard: {
+    completudeFileType: 'completudeFileType',
+    qualityQuantiyChart: 'qualityQuantiyChart',
+    logs: 'logs',
+    completudeFosa: 'completudeFosa'
+  },
+  donors: {
+    read: 'donors:read',
+    write: 'donors:write',
+    update: 'donors:update',
+    delete: 'donors:delete'
+  },
+  settings: {
+    read: 'settings:read',
+    update: 'settings:update'
+  },
+  population: {
+    read: 'POPULATION:READ',
+    write: 'POPULATION:ADD',
+    update: 'POPULATION:EDIT',
+    delete: 'POPULATION:DEL'
+  },
+  budget: {
+    read: 'BUDGETS:READ',
+    write: 'BUDGETS:ADD',
+    update: 'BUDGETS:EDIT',
+    delete: 'BUDGETS:DEL'
+  },
+  validation: {
+    read: 'valid_files_list',
+    individuel: 'validation_level:individual',
+    regional: 'validation_level:regional',
+    national: 'validation_level:national'
+  },
+  password: {
+    all_password: 'change_password',
+    group_password: 'change_password:group'
+  },
+  fileManagement: {
+    read: 'fileManagement:read',
+    write: 'fileManagement:write',
+    update: 'fileManagement:update',
+    delete: 'fileManagement:delete'
+  },
+  reportType: {
+    read: 'reportType:read',
+    write: 'reportType:write',
+    update: 'reportType:update',
+    delete: 'reportType:delete'
+  },
+  tasks: {
+    read: 'tasks:read',
+    write: 'tasks:write',
+    update: 'tasks:update',
+    delete: 'tasks:delete'
+  }
+}

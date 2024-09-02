@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #010101;
+      }
+    </style>
+  </defs>
+  <path id="s-stats-line-up" class="cls-1" d="m13,222.18v-7.88h230v7.88H13Zm11.78-84.98l56.67-51.28,57.54,41.45,76.66-85.65h-36.56v-7.88h50.03v50.02h-7.88v-36.56l-81.08,90.62-58.14-41.85-51.95,46.98-5.29-5.84Z"/>
+</svg>

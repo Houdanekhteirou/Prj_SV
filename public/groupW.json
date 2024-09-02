@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "name": "Wilaya",
+    "type": "group",
+    "items": [
+      {
+        "type": "group",
+        "id": 23,
+        "name": "mougataa",
+        "items": [
+          {
+            "type": "element",
+            "id": 29,
+            "name": "zoneSanitaire"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "id": 24,
+        "name": "Ould Yenge",
+        "items": [
+          {
+            "type": "element",
+            "id": 30,
+            "name": "PS Ould Yenge"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Tiris Zemmour",
+    "type": "group",
+    "items": [
+      {
+        "type": "group",
+        "id": 25,
+        "name": "F'Derick",
+        "items": [
+          {
+            "type": "element",
+            "id": 31,
+            "name": "PS F'Derick"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "id": 26,
+        "name": "Tichit",
+        "items": [
+          {
+            "type": "element",
+            "id": 32,
+            "name": "PS Tichit"
+          }
+        ]
+      }
+    ]
+  }
+]

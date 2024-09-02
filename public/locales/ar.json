@@ -1,0 +1,1419 @@
+{
+  "INELIGIBLE": "غير مؤهل",
+  "ELIGIBLE": "مؤهل",
+  "VALID": "صالح",
+  "publish": "نشر",
+  "total_to_pay_for_moughataa": "إجمالي المبلغ المستحق للمقاطعة",
+  "total_to_pay_for_wilaya": "إجمالي المبلغ المستحق للولاية",
+  "total_to_pay_for_health_facility": "إجمالي المبلغ المستحق للمنشأة الصحية",
+  "total_to_pay_for_fosa": "إجمالي المبلغ المستحق للفوسا",
+  "facture_generated_at": "الفاتورة صادرة في",
+
+  "accountNumber": "رقم الحساب",
+  "amount_qtty": "المبلغ المستحق (الكمية)",
+  "amount_qlty": "المبلغ المستحق (الجودة)",
+  "amount_total": "المبلغ الإجمالي المستحق",
+  "File already exists in the repository you can select it from the PBF Media": "الملف موجود بالفعل في المستودع يمكنك اختياره من وسائط PBF",
+  "image/file": "صورة/ملف",
+  "Upload from File System": "تحميل من النظام",
+  "Select from PBF Media": "اختيار من وسائط PBF",
+  "dateOfDateEntryHasExpiredAskTheAdminToExtendItForYou": "تاريخ ادخال البيانات قد انتهى، اطلب من المدير تمديده لك",
+  "Add Role Member": "اضافة عضو الدور",
+  "role-members": "أعضاء الدور",
+  "History": "التاريخ",
+  "CONTRACTS_SEASON": "عقود الفصل",
+  "Simestre": "الفصل الدراسي",
+  "Number": "رقم",
+  "bankAccounts": "حسابات البنك",
+  "agence": "الوكالة",
+  "Entity Class": "فئة الكيان",
+  "Zone Level": "مستوى المنطقة",
+  "Authority": "المسؤول",
+  "Duration": "مدة",
+  "Entity Type": "نوع الكيان",
+  "Renewable": "متجدد",
+  "add contractType": "اضافة نوع عقد",
+  "Edit contractType": "تعديل نوع العقد",
+  "renewable": "متجدد",
+  "division": "القسم",
+  "authority": "المسؤول",
+  "duration": "مدة",
+  "Add contract Type": "اضافة نوع عقد",
+  "contractNotInContractsSemester": "العقد غير موجود في عقود الفصل",
+  "Nouveau Contrat Principal": "عقد رئيسي جديد",
+  "Relagation du contrat de": "اعادة تصنيف العقد",
+  "Reason ": "السبب",
+  "reason": "السبب",
+  "Reason": "السبب",
+  "Raison": "السبب",
+  "suspension du contrat de": "التعليق على العقد",
+  "Ouvrir le document": "فتح المستند",
+  "Fermer le document": "اغلاق المستند",
+  "Promotion": "ترقية",
+  "Subtitution": "تجديد",
+  "comment": "التعليق",
+  "Contrat Principal": "العقد الرئيسي",
+  "Comment": "التعليق",
+  "PROMOTION": "ترقية",
+  "delocalisation du contrat de": "نقل العقد لـ",
+  "resiliation du contrat de": "فسخ العقد ل",
+  "Promotion du contrat de": "ترقية العقد",
+  "Renouvelation du contrat de": "تعديل عقد",
+  "Relegation du contrat de": "إعادة تصنيف العقد لـ",
+  "Subtitution du contrat de": "تجديد العقد ل",
+  "raison": "السبب",
+  "Edit Account": "تعديل الحساب",
+  "View Account": "عرض الحساب",
+  "Add Account": "اضافة حساب",
+  "Nom": "الاسم",
+  "Information Contractuelle": "معلومات تعاقدية",
+  "Signateur": "التوقيع",
+  "Avenant": "تعديل",
+  "Relegation": "الإعادة التوجيه",
+  "Resiliation": "الإيقاف",
+  "Delocalisation": "تحديد العنوان",
+  "Suspension": "التعليق",
+  "Contact Name": "اسم جهة الاتصال",
+  "Nom Signature": "اسم التوقيع",
+  "Agence Bancaire": "الوكالة البنكية",
+  "Numero compte": "رقم الحساب",
+  "fonction Signature": "وظيفة التوقيع",
+  "Voir le contrat": "عرض العقد",
+  "Modifier le contrat": "تعديل العقد",
+  "Ajouter un contrat": "اضافة عقد",
+  "unknown_error": "خطأ غير معروف",
+  "fileExists": "الملف موجود بالفعل",
+  "Historique": "التاريخ",
+  "Valid": "صالح",
+  "Status": "الحالة",
+  "ShortName": "اسم قصير",
+  "Renouvelment du contrat de": "تجديد عقد",
+  "authorFunction": "وظيفة المؤلف",
+  "author": "المؤلف",
+  "Type": "النوع",
+  "Fichier de contrat": "ملف العقد",
+  "Responsable Fosa": "مسؤول المدفوعات",
+  "BANK": "بنك",
+  "code": "الكود",
+  "contractType": "نوع العقد",
+  "debut": "بداية",
+  "fin": "نهاية",
+  "Expired": "منتهية الصلاحية",
+  "RENOUVELER": "تجديد",
+  "Renouveler": "تجديد",
+  "Entity": "الكيان",
+  "Contrats": "العقود",
+  "File Browser": "متصفح الملفات",
+  "Autres titres": "العناوين الاخرى",
+  "Date de début de zone": "تاريخ البدء للمنطقة",
+  "numero": "رقم",
+  "Started At": "تاريخ البدء",
+  "Group": "مجموعة",
+  "Confirm Password": "تأكيد كلمة المرور",
+  "Coordonnées": "المعلومات",
+  "Numero": "رقم",
+  "Compte bancaire": "حساب البنك",
+  "Contact": "اتصل",
+  "Zone": "المنطقة",
+  "Informations générales": "المعلومات الأجتماعية",
+  "personal": "شخصي",
+  "role": "دور",
+  "Les indicateurs": "المؤشرات",
+  "addElement": "اضافة مؤشر",
+  "Add Entity Class": "اضافة فئة الكيان",
+  "Voir plus": "عرض المزيد",
+  "DONNÉES NON VALIDÉES": "البيانات غير المعتمدة",
+  "Le Comité de Pilotage, Le Comité Technique PBF, L’Unité technique FBR,": "لجنة التوجيه، اللجنة الفنية PBF، الوحدة التقنية FBR،",
+  "Les principaux organes de ce dispositif institutionnel sont les suivants :": "الأجهزة الرئيسية لهذه الآلية المؤسسية هي كما يلي :",
+  "VISUALISER LE SCHEMA DU DISPOSITF": "عرض مخطط الآلية",
+  "VISUALISER LA VIDEO DU DISPOSITF": "عرض فيديو الآلية",
+  "FORMATIONS SANITAIRES": "المرافق الصحية",
+  "ENTITÉS ADMINISTRATIVES": "الكيانات الإدارية",
+  "ENTITÉS COMMUNAUTAIRES": "الكيانات المجتمعية",
+  "Poste de santé (sécondaires)": "المراكز الصحية (الثانوية)",
+  "Tous les postes de santé": "جميع المراكز الصحية",
+  "Hopitaux": "المستشفيات",
+  "Postes de santé (Principaux)": "المراكز الصحية (الرئيسية)",
+  "organizat": "المنظمات",
+  "testimony": "الشهادات",
+  "En_cours_construction": "قيد الإنشاء",
+  "Docs": "الوثائق",
+  "News": "الأخبار",
+  "usersCount": "عدد المستخدمين",
+  "groupName": "المجموعة",
+  "startedAt": "بدأ في",
+  "closedAt": "أغلق في",
+  "all": "الكل",
+  "Add User": "اضافة مستخدم",
+  "Add user": "اضافة مستخدم",
+  "Date de début": "تاريخ البدء",
+  "Date de fin": "تاريخ الانتهاء",
+  "TABLEAU": "جدول",
+  "DONNÉES DÉCLARÉES": "البيانات المعلنة",
+  "DONNÉES VERIFIÉES": "البيانات المتوقعة",
+  "DONNÉES VALIDÉES": "البيانات المعتمدة",
+  "GRAPHIQUES": "الرسوم البيانية",
+  "VISUALISER": "عرض",
+  "AJOUTER UN MODÈLE": "اضافة نموذج",
+  "Choisir un modèle de visualisation": "اختر نموذج العرض",
+  "MODÈLE DE VISUALISATIONS": "نموذج العرض",
+  "AJOUTER UNE PÉRIODE": "اضافة فترة",
+  "PÉRIODE": "الفترة",
+  "AJOUTER UNE LOCALISATION": "اضافة موقع",
+  "Choisir une formation sanitaire": "اختر تدريب صحي",
+  "Choisir une aire de sante": "اختر منطقة",
+  "Choisir un departement": "اختر منطقة",
+  "Choisir une region": "اختر منطقة",
+  "LIEU : ZONE/ FORMATION SANITAIRE": "مكان: منطقة/ تدريب صحي",
+  "AJOUTER UN INDICATEUR": "اضافة مؤشر",
+  "National": "المملكة",
+  "Regional": "المنطقة",
+  "Departemental": "المحافظة",
+  "Aire de santé": "فضاء صحي",
+  "Formation Sanitaire": "تدريب صحي",
+  "AGREGATION": "تجميع",
+  "Choisir un indicateur": "اختر مؤشر",
+  "CHOISIR UN ENSEMBLE DE DONNÉES": "اختر مجموعة من البيانات",
+  "COURBE : Graphique en ligne": "مخطط: مخطط على الخريطة",
+  "Visualisations": "التصورات",
+  "Données": "البيانات",
+  "Accueil / Statistiques /": "القيادة / الاحصاءات/",
+  "Périodes": "المدى",
+  "Localisations": "المواقع",
+  "Indicateurs": "المؤشرات",
+  "OUTILS": "الأدوات",
+  "RECHERCHE": "بحث",
+  "PAIMENTS": "الدفعات",
+  "QUALITÉ": "المستوى",
+  "QUANTITÉ": "كمية",
+  "Présentation de toutes les séries de type bases de données (Open Data) produites par les rapports issus des différentes evaluations du Projet. il est question ici des données validées, plusieurs types de présentation sont disponibles à differentes périodes du projet et dans toutes les zones couvertes.": "عرض جميع السلاسل من نوع قواعد البيانات (البيانات المفتوحة) التي تم إنتاجها من التقارير الناتجة عن التقييمات المختلفة للمشروع. نحن نتحدث هنا عن البيانات المعتمدة، وتتوفر عدة أنواع من العرض في فترات مختلفة من المشروع وفي جميع المناطق المغطاة.",
+  "VISUALISATIONS DE DONNÉES": "تصورات البيانات",
+  "Add Role": "اضافة الدور",
+  "Add Group Member": "اضافة عضو في المجموعة",
+  "Add Group": "اضافة مجموعة",
+  "Add Entity Type": "اضافة نوع الكيان",
+  "Add File Type": "اضافة نوع الملف",
+  "Add Element Group": "اضافة مجموعة مؤشر",
+  "add element_groups": "اضافة مجموعة مؤشر",
+  "Add Zone": "اضافة منطقة",
+  "Add Level": "اضافة مستوى",
+  "add entityClass": "اضافة فئات الكيان",
+  "Card Description 2": "وصف البطاقة",
+  "Submit": "حفظ",
+  "Impacts": "التأثيرات",
+  "Card Total": "إجمالي البطاقات",
+  "Card Percentage": "نسبة البطاقة",
+  "Card Title": "عنوان البطاقة",
+  "Impacts Cards": "بطاقات التأثيرات",
+  "Impacts Subtitle": "عنوان العواقب الفرعية",
+  "Impacts Title": "عنوان التأثيرات",
+  "Button Text": "نص الزر",
+  "Add Card": "اضافة بطاقة",
+  "Upload Image": "تحميل الصورة",
+  "Card Description 1": "وصف البطاقة",
+  "Card Title 1": "عنوان البطاقة",
+  "Card Title 2": "عنوان البطاقة",
+  "Add Section": "اضافة قسم",
+  "Section Description": "وصف القسم",
+  "Section Title": "عنوان القسم",
+  "Sections": "الأقسام",
+  "About Form": "حول النموذج",
+  "posts": "المنشورات",
+  "CONSULTER PLUS DE TÉMOIGNAGES": "التقارير الأخيرة",
+  "SAUVEGARDE ENVIRONNEMENTALE & SOCIALE": "الحفاظ على البيئة والاجتماعية",
+  "Directeur des operations HCR au camp de mbera": "مدير العمليات في مخيم مبرة لمفوضية الأمم المتحدة لشؤون اللاجئين",
+  "HUGO J HERMANOS": "هوغو جي هيرمانوس",
+  "A Travers INAYA, le HCR a pu accélerer son programme de prise en charge des réfugiés dans le CAMP de Mberra, cette collaboration à permis une couverture complete des occupants du CAMP en ce qui concernent les indicateurs achétés par INAYA.": "من خلال INAYA، تمكنت المفوضية السامية لشؤون اللاجئين من تسريع برنامجها لرعاية اللاجئين في مخيم مبرة، وقد سمحت هذه التعاون بتوفير تغطية كاملة لسكان المخيم فيما يتعلق بالمؤشرات التي اشترتها INAYA.",
+  "PARTENAIRES TECHNIQUES": "الشركاء التقنيين",
+  "Responsable Santé Maternelle & Infantile, OMS Mauritanie": "المسؤول عن الصحة الأمومية والرضع، منظمة الصحة العالمية في موريتانيا",
+  "MARIA HARA MENDES": "ماريا هارا مينديز",
+  "INAYA Offre en plus de resultats observables, des données verifiées dans ses zones d'interventions, ce qui nous permet une utilisation sûr des données dans le cadre de nos recherches.": "INAYA تقدم، بالإضافة إلى النتائج الملاحظة، بيانات محققة في مناطق تدخلها، مما يتيح لنا استخدام آمن للبيانات في إطار أبحاثنا.",
+  "ANIMATA B. SAKERA": "أنيماتا ب.ساكيرا",
+  "Présidente de l’Association des Femmes de Dafor": "رئيسة جمعية نساء دافور",
+  "Depuis l'arrivé d'INAYA dans notre commune, les femmes trouvent une aisance, une facilité et une efficacité dans l'accès aux consulations et soins de santé prénatale et postnatale. Quand aux enfants, leurs santés s'ameliorent dans le cadre de petites chirurgies et des traitements de malnutritions dans toutes ses formes.": "منذ وصول إنايا إلى بلدتنا، تجد النساء راحة وسهولة وفاعلية في الوصول إلى الاستشارات والرعاية الصحية أثناء الحمل وبعد الولادة. أما بالنسبة للأطفال، فإن صحتهم تتحسن في إطار الجراحات الصغيرة وعلاجات سوء التغذية بجميع أشكالها.",
+  "SANTÉ MATERNELLE & ENFANTS": "صحة الأم والأطفال",
+  "STATISTIQUES LES PLUS RÉCENTES": "أحدث الإحصائيات",
+  "CHAMBRES FROIDES": "الغرف الباردة",
+  "INCINÉRATEURS CONSTRUITS": "المحارق المبنية",
+  "FOSA REHABILITÉES": "الحفريات التي تمت تأهيلها",
+  "ENFANTS VACCINÉS": "الأطفال الملقحون",
+  "PERSONNES FORMÉES": "الأشخاص المدربون",
+  "INDICATEURS ACHÉTÉS": "المؤشرات المشتراة",
+  "INDIGENTS TRAITÉS": "المحتاجون المعالجون",
+  "QUELQUES CHIFFRES ET DONNÉES CLÉS": "بعض الأرقام والبيانات الرئيسية",
+  "IMPACTS": "التأثيرات",
+  "85 000 000 USD": "85 000 000 دولار",
+  "Santé, Mangement, Coaching, Formation, Equité, Humanitaire, Developpement": "نحن نسعى إلى تحقيق التطور في مجالات الصحة، والإدارة، والتدريب، والتكوين، والعدالة، والإنسانية، والتنمية.",
+  "Guidimaka, Hodh El Gharbi, Hodh ECharghi, Adrar, Assaba, Brakna, Gorgol": " غيديماغا، والحوض الغربي، والحوض الشرقي، وأدرار، والأسابعة، وبراكنة، وجورجول.",
+  "Régulation": "تنظيم",
+  "Direction des Affaires Financières du ministère de la Santé (DAF)": "إدارة الشؤون المالية في وزارة الصحة (DAF)",
+  "Paiment": "قسط",
+  "Validation": "التحقق",
+  "Conseil Régional": "المجلس الجهوي",
+  "Equipe Régionale de Vérification, Direction de la Médecine Hospitalière, Comités de santé, Directions Régionales de Santé, Une équipe désignée par le ministère de la Santé pour l’évaluation du rendrement , l’Inspection Générale du Ministère de la santé.": "الفريق الإقليمي للتحقق، إدارة الطب المستشفي، لجان الصحة، الإدارات الإقليمية للصحة، فريق معين من قبل وزارة الصحة لتقييم الأداء، والتفتيش العام في وزارة الصحة.",
+  "Vérification": "تَحَقّق",
+  "Prestation": "الخدمة",
+  "Structures de santé": "هياكل الرعاية الصحية",
+  "Responsabilité du Conseil Régional (CR). Pour les questions relatives à la mise en oeuvre du PBF, le secrétariat": "مسؤولية المجلس الإقليمي (CR). بالنسبة للأسئلة المتعلقة بتنفيذ التمويل القائم على الأداء، الأمانة",
+  "Achat des prestations des structures de santé": "شراء الخدمات من هياكل الرعاية الصحية",
+  "Ministère des finances (Budget de l‘Etat) et des partenaires (BM et autres)": "وزارة المالية (ميزانية الدولة) والشركاء (البنك الدولي وغيرهم)",
+  "l’Unité technique FBR ; au niveau intermédiaire par les Directions Régionales de Santé et au niveau opérationnel par les Circonscriptions Sanitaires": "الوحدة الفنية للتمويل القائم على الأداء؛ على المستوى الوسيط من خلال الإدارات الإقليمية للصحة وعلى المستوى التنفيذي من خلال الدوائر الصحية",
+  "Régulations": "التنظيم",
+  "Comité de Pilotage": "لجنة القيادة",
+  "Coordination générale et orientation stratégique": "التنسيق العام والتوجيه الاستراتيجي",
+  "Le dispositif institutionnel du PBF mis en place en Mauritanie respecte le principe de séparation des différentes fonctions :": "تحترم الهيئة المؤسسية للتمويل القائم على الأداء المنصوص عليه في موريتانيا مبدأ فصل الوظائف المختلفة:",
+  "MONTAGE INSTITUTIONNEL ET FONCTIONNEL DU PBF": "التركيب المؤسسي والوظيفي للتمويل القائم على الأداء",
+  "ORGANISATION": "منظمة",
+  "Télécharger le document": "تحميل المستند",
+  "Montant de financement": "مبلغ التمويل",
+  "Secteurs": "القطاعات",
+  "Outils de financement": "أدوات التمويل",
+  "Etat Mauritanien, Banque Mondiale": "الدولة الموريتانية، البنك الدولي",
+  "Localisation": "الموقع",
+  "Clôture": "الإغلاق",
+  "Démarrage": "البدء",
+  "Afin d’améliorer l’état de santé de la population et de trouver des solutions pratiques aux principaux problèmes du système de santé, le Gouvernement compte mettre en oeuvre progressivement, l’approche du financement basé sur la performance (PBF en sigle) dont une stratégie nationale a été validée le 29 septembre 2016 par le conseil des Ministres. Le Plan National de Developpment Sanitaire 2030-2022 avait fixé comme objectif la generéalisation de l’approche PBF sur toutes les formations sanitaires du pays et l’ensemble de regulateurs en 2030. Le Financement basé sur la Performance est une approche permettant d’améliorer les mécanismes d’allocation des ressources qui sont toujours rares, de mettre en place une contractualisation stratégique à tous les niveaux et de faire des réformes nécessaires pour le développement du secteur de la santé.": "من أجل تحسين حالة صحة السكان وإيجاد حلول عملية للمشكلات الرئيسية في النظام الصحي، يعتزم الحكومة تنفيذ تدريجي لنهج التمويل القائم على الأداء (PBF بالاختصار) الذي تمت الموافقة عليه في الاستراتيجية الوطنية في 29 سبتمبر 2016 من قبل مجلس الوزراء. كان الهدف المحدد في الخطة الوطنية للتنمية الصحية 2030-2022 تعميم نهج التمويل القائم على الأداء على جميع المرافق الصحية في البلاد وجميع الجهات التنظيمية بحلول عام 2030. التمويل القائم على الأداء هو نهج يسمح بتحسين آليات توزيع الموارد التي تظل نادرة، وإقامة عقود استراتيجية على جميع المستويات والقيام بالإصلاحات الضرورية لتطوير قطاع الصحة.",
+  "DESCRIPTIF": "الوصف",
+  "Le Financement basé sur la Performance est une approche de réforme du système de santé permettant d’améliorer les mécanismes d’allocation des ressources qui sont toujours rares, de mettre en place une contractualisation stratégique à tous les niveaux de la pyramide sanitaire et de faire certaines réformes nécessaires au développement du secteur de la santé. Cette réforme est basée sur le principe de « changer le financement classique des « inputs » vers un financement des résultats en termes de la quantité, de la qualité et de l’équité ».": "التمويل القائم على الأداء هو نهج لإصلاح نظام الرعاية الصحية يسمح بتحسين آليات توزيع الموارد التي تظل نادرة، وإقامة عقود استراتيجية على جميع مستويات الهرم الصحي، والقيام ببعض الإصلاحات الضرورية لتطوير قطاع الصحة. يستند هذا الإصلاح على مبدأ تغيير التمويل التقليدي من المدخلات إلى التمويل الناتج بالنسبة للكمية والجودة والعدالة.",
+  "CONTEXTE": "السياق",
+  "La Politique Nationale de Santé (PNS) à l’horizon 2030 vise à répondre aux attentes de plus en plus ambitieuses des populations Mauritaniennes en matière de santé. Le renforcement de la gouvernance sanitaire orientée vers le financement basé sur la performance est l’un des axes prioritaires de cette politique de santé.": "السياسة الوطنية للصحة (PNS) في الفترة حتى عام 2030 تهدف إلى تلبية توقعات السكان الموريتانيين المتزايدة بشأن الصحة. تعزيز الحوكمة الصحية الموجهة نحو تمويل قائم على الأداء هو أحد المحاور الأساسية لهذه السياسة الصحية.",
+  "PROJET INAYA ELARGI: FINANCEMNT BASÉ SUR LA PERFORMANCE DANS LE DOMAINE DE LA SANTÉ EN MAURITANIE": "مشروع عناية الموسع: للتمويل القائم على الأداء في مجال الصحة في موريتانيا.",
+  "Wilaya de": "الولاية",
+  "Aire de santé :": "فضاء صحي",
+  "Zone couverte": "المساحة المغطاة",
+  "Wilaya de : ": "الولاية:",
+  "Editée le": "تم تحريره بتاريخ",
+  "MONTANT A PAYER TOTALE": "المبلغ الإجمالي للدفع",
+  "MONTANT TOTAL A PAYER": "المبلغ الإجمالي للدفع",
+  "MONTANT A PAYER (QUALITE)": "المبلغ المدفوع (الجودة)",
+  "MONTANT A PAYER (QUANTITE)": "المبلغ المدفوع (الكمية)",
+  "Entity Planification": "تخطيط الكيان",
+  "TOTAL": "المبلغ الإجمالي",
+  "Delete": "الحذف",
+  "username must be at least 4 characters": "يجب أن يكون اسم المستخدم 4 أحرف على الأقل",
+  "password must be at least 4 characters": "يجب أن تتكون كلمة المرور من 4 أحرف على الأقل",
+  "Atelier de formation des COSA de la zone pilote PBF": "ورشة عمل تدريبية لـ COSAs في المنطقة التجريبية PBF",
+  "Rows per page": "عدد الصفوف في كل صفحة",
+  "mode satellite": "وضعية صور مباشرة",
+  "Facture consolidée mensuels - AS": "الفاتورة الموحدة للدعم الشهري - الفضاء الصحي",
+  "Facture consolidée mensuels - Moughataa": "الفاتورة الموحدة للإعانات الشهرية  - للمقاطعة",
+  "Facture consolidée mensuels - Wilaya": "الفاتورة الموحدة للدعم الشهري -آلولاية",
+  "Search Docs": "بحث عن المستندات",
+  "VIDEOS": "الفيديوهات",
+  "Indicateurs quantitatifs": "المؤشرات الكمية",
+  "Sélectionner": "اختيار",
+  "Evaluation": "تقييم",
+  "Arr": "آر",
+  "PS Vouguess": "PS فوغس",
+  "PS GROUNVELLA": "النقطة الصحية كروفنلا",
+  "PS Egjert": "النقطة الصحية اغجرت",
+  "Centres de santé": "مراكز صحية",
+  "structre_sanitaire": "المنشآت الصحية",
+  "poste_sante": "نقاط صحية",
+  "poste de santé": "نقاط صحية",
+  "Title Pub": "الإسم العام",
+  "Population": "السكان",
+  "Hospitals": "مستشفيات",
+  "Wilayaa": "الولاية",
+  "Wilayaas": "الولايات",
+  "Moughataas": "المقاطعات",
+  "Indicateurs qualitatifs": "المؤشرات النوعية",
+  "centre_sante": " مراكز صحية",
+  "centre de santé": "مراكز صحية",
+  "Donner general": "معطيات عامة ",
+  "+222 45 25 25 25": "25 25 25 45 222+",
+  "PS Wad Initi ": "النقطة الصحية واد إنيتي",
+  "CS Walata": "المركز الصحي ولاتة",
+  "PS Galb Jmel 1": "النقطة الصحية كلب اجمل 1",
+  "PS Archane 1": "النقطة الصحية أراشان 1",
+  "TVZ V N° 245,Nouakchott, Mauritanie": "TVZ V رقم 245، نواكشوط، موريتانيا",
+  "FINANCEMENT BAS SUR LA PERFORMANCE": "التمويل القائم على الأداء",
+  "INAYA | PORTAIL PBF": "عناية | مدخل المنطقة التجريبية التمويل القائم على الأداء",
+  "INAYA | ÉLARGI ": "عناية الموسع ",
+  "centres de santé": "المراكز الصحية",
+  "hospitals": "المستشفيات",
+  "hospital": "مستشفيات",
+  "None": "لا شيء",
+  "Plan d'action du district sanitaire": "خطة عمل المنطقة الصحية",
+  "Formulaire d'enquête communautaire": "استمارة المسح الجمعوي",
+  "Le cadre général des résultats avec révision": "الإطار العام للنتائج مع التحيين",
+  "Le financement basé sur la performance en bref": "التمويل المبني على الأداء في سطور",
+  "Témoignages des conseils régionaux élus sur la population des trois États": "إفادات المجالس الجهوية المنتخبة عن السكان في الولايات الثلاثة",
+  "Publications": "الوثائق",
+  "Le financement basé sur la performance dans le secteur de la santé": "التمويل القائم على الأداء في منطقة الصحة",
+  "Réunion du groupe de travail sur la stratégie d’offre des soins aux réfugies (GTSR)": "مجموعة المجلس العام للتنفيذ القائم على الأداء (GTSR)",
+  "novembre 2023 compare avec octobre 2023": "نوفمبر 2023 مقارنة بأكتوبر 2023",
+  "Atelier interventions prioritaires de la zone pilote du 25 au 28 avril 2022": " مركز الانشاءات الاستشارية الاهتمامية للمنطقة الرئيسية للتوزيع الثامن عشر من الشهر الرابع من عام 2022",
+  "MANUEL DE LA MISE EN OEUVRE DU FINANCEMENT BASE SUR LA PERFORMANCE Juin 2020 (Volume 2)": "دليل تنفيذ التمويل القائم على الأداء، يونيو 2020 (المجلد 2)",
+  "PROJET DE PRÉPARATION ET DE RÉPONSE STRATÉGIQUE COVID-19 EN MAURITANIE – Deuxième Financement Additionnel (P178100) - PLAN D'ENGAGEMENT ENVIRONNEMENTAL ET SOCIAL (PEES)": "مشروع الإعداد والاستجابة لكوفيد-19 في الموريتانيا - زراعة الحيوانات الاحتيالية والعلمية (PEES)",
+  "PROJET DE PRÉPARATION DE RÉPONSE STRATÉGIQUE CONTRE LA COVID-19 - PLAN DE MOBILISATION DES PARTIES PRENANTES (PMPP)": "مشروع الإعداد الاستراتيجي للاستجابة لكوفيد-19 - خطة تعبئة أصحاب المصلحة (PMPP)",
+  "Bilan annuel 2021 du projet INAYA": "التقرير السنوي 2021 للمشروع INAYA",
+  "Nouvelles consultations curatives moins de 5 ans  ": "مجموعات الصحية الخاصة بالنشاطات التكميلية 2 سنوات والتي تم تقديمها للنشاطات التكميلية",
+  "Cas TB (TPM+) traités et guéris": "مجموعات الصحية الخاصة بالنشاطات التكميلية 2 سنوات والتي تم تقديمها للنشاطات التكميلية",
+  "Enfant 6-59 mois PEC malnutrition aigüe sévère (CRENAS+CRENI)": "الطفل 6-59 أشهر بالتحديث (CRENAS+CRENI)",
+  "Total Consultation PF (ancienne et nouvelle)": "المجموعات الصحية الخاصة بالنشاطات التكميلية 2 سنوات والتي تم تقديمها للنشاطات التكميلية",
+  "Césariennes (indigent et non indigent)": "التعاونات الداخلية (بالتحديث) ",
+  "Femmes enceinte protégées contre le Paludisme au cours de la grossesse (Traitement Préventif Intermittent)": "المرضى النساء الكاملون الموافقون عليهم بالتحديث",
+  "Femme enceinte complètement vaccinée contre le tétanos et la diphtérie (TD)": "المرضى النساء الكاملون المكتملون بالتحديث",
+  "Enfants complètement vaccinés": "الطفلون الكاملون المكتملون",
+  "Consultation post natale (2 consultations)": "المجموعات الصحية الخاصة بالنشاطات التكميلية 2 سنوات والتي تم تقديمها للنشاطات التكميلية",
+  "Accouchements assistés (hors césariennes)": "التعاونات الداخلية (بالتحديث) ",
+  "Nouvelles consultations curatives 5 ans et plus": "المجموعات الصحية الخاصة بالنشاطات التكميلية 5 سنوات والتي تم تقديمها للنشاطات التكميلية",
+  "Qualité PMA": "مؤشر الصحي",
+  "Qualité PMA PS Principal": "المؤشر الصحي الأول",
+  "Qualité PCA": "المستشفيات جودة حزمة النشاطات التكميلية",
+  "Qualité PMA PS Secondaire": "المؤشر الصحي الثاني",
+  "TOP QUALITE": "المتميزون في معدلات الجودة",
+  "Total des paiements": "المجموع الكلي",
+  "Formations Sanitaires": " المنشأة الصحية",
+  "Aires sanitaires": "الفضاء الصحي",
+  "Oops, something went wrong!": "عذرا، حدث خطأ!",
+  "We couldn&prime;t find the page you are looking for.": "لم نستطع العثور على الصفحة التي تبحث عنها.",
+  "Page Not Found": "صفحة غير موجودة",
+  "You don&prime;t have permission to access this page. Go Home!": "ليست لديك الصلاحيات الناقصة للوصول لهذه الصفحة. الذهاب إلى الصفحة الرئيسية!",
+  "You are not authorized! 🔐": "ليست لديك الصلاحيات الناقصة!",
+  "Back to Home": "العودة إلى الصفحة الرئيسية",
+  "geozone_pop_year": "السكان حسب المنطقة",
+  "Collapse": "تقليص",
+  "Vertical": "عمودي",
+  "Horizontal": "افقي",
+  "Fixed": "ثابتة",
+  "Static": "ثابت",
+  "Hidden": "مخفية",
+  "Full": "ملؤة",
+  "Boxed": "محاذاة",
+  "Semi Dark": "نصف داكن",
+  "Light": "مضيء",
+  "Dark": "داكن",
+  "Default": "افتراضي",
+  "Bordered": "محاذاة",
+  "Theming": "التخصيص",
+  "Theme Customizer": "تخصيص المظهر",
+  "Customize & Preview in Real Time": "تخصيص ومعاينة في الوقت الحقيقي",
+  "Skin": "المظهر",
+  "Mode": "الوضع",
+  "Primary Color": "اللون الأساسي",
+  "Layout": "تصميم",
+  "Content Width": "عرض المحتوى",
+  "AppBar Type": "نوع شريط التطبيقات",
+  "Footer Type": "نوع التذييل",
+  "AppBar Blur": "شفافية شريط التطبيقات",
+  "RTL": "من اليمين إلى اليسار",
+  "Menu Layout": "تصميم قائمة",
+  "Menu Toggle": "تبديل قائمة",
+  "Menu Collapsed": "قائمة مخفية",
+  "Menu Hidden": "قائمة مخفية",
+  "Documentations": "المستندات",
+  "Planification": "الخطة",
+  "janvier": "يناير",
+  "fevrier": "فبراير",
+  "mars": "مارس",
+  "avril": "أبريل",
+  "mai": "مايو",
+  "juin": "يونيو",
+  "juillet": "يوليو",
+  "aout": "أغسطس",
+  "septembre": "سبتمبر",
+  "octobre": "أكتوبر",
+  "novembre": "نوفمبر",
+  "decembre": "ديسمبر",
+  "fosa": "فوزا",
+  "zoneSanitaire": "المنطقة الصحية",
+  "geo": "المحافظة",
+  "statut": "الحالة",
+  "responsable": "المسؤول",
+  "email": "البريد الإلكتروني",
+  "tel": "هاتف",
+  "banque": "بنك",
+  "wilaya": "ولاية",
+  "Any": "كل",
+  "completude": "المكتملة",
+  "Tel": "هاتف",
+  "REGION": "منطقة",
+  "completudeFosa": "المكتملة(الهيئات الصحية)",
+  "Generate": "إنشاء",
+  "Effacer": "مسح",
+  "Arrêté la présente facture pour le bonus qualité": "أمرت هذه الفاتورة للبونس العالي",
+  "Entité :": "الجهة :",
+  "Score de l'évaluation de la performance (%)": "نتيجة التقييم العالي (%)",
+  "Subsides trimestriels disponibles": "الإعانات ربع السنوية المتاحة",
+  "TOTAL A PAYER": "إجمالي الدفع",
+  "Arrêté la présente facture pour": "أمرت هذه الفاتورة ل",
+  "pour l'entité": "للجهة",
+  "Trimestre": "ربع",
+  "T": "الفصل",
+  "Hassi Abdella": "حاسي عبد الل",
+  "Aweinatt": "اعوينات",
+  "Facture par fosa": "الفاتورة عن طريق فوزا",
+  "FOSA": "فوزا",
+  "Subsides Quantité": "المبالغ المتبقية",
+  "Bonus qualité": "الجودة العالية",
+  "Montant total par FOSA": "المبلغ الكلي لكل فرع",
+  "PRIME TOTAL A L'AIRE DE SANTE": "الجودة الكلي للهيئة الصحية",
+  "SUBSIDES (MRU)": "المبالغ المتبقية (MRU)",
+  "SCORE QUALITE CLOBALE %": "نتيجة الجودة العالية %",
+  "PRIME (MRU)": "الجودة (MRU)",
+  "Qtté déclarée": "الكمية المصفوفة",
+  "Qtté vérifiée": "الكمية المصفوفة",
+  "Qtté validée": "الكمية المصفوفة",
+  "Écart %": "الإعانة %",
+  "Tarif unitaire": "السعر الوحدة",
+  "Montant en (MRU)": "المبلغ (MRU)",
+  "Indicateur": "مؤشر",
+  "Formation sanitaire :": "تدريب الصحي:",
+  "Zone sanitaire :": "منطقة الصحة:",
+  "à un montant de trois cent quarante quatre mille huit cent soixante-dix six": "على مبلغ ثلاث ستة وربع مليون وتسعة وعشرية ستة",
+  "à un montant de": "على مبلغ",
+  "Montant QUANTITATIVE (MRU)": "المبلغ الكمي (MRU)",
+  "Montant A PAYER (MRU)": "المبلغ المدفوع (MRU)",
+  "Banque": "بنك",
+  "Moughtaaa de :": "موغاتاا: ",
+  "Subsides trimestriels": "الإعانات ربع السنوية",
+  "D. Score qualite Globale": "د. تقييم الفئة العالية",
+  "C. Score qualite Techique Corrigee": "C. تقييم الفئة الفنية التصحيح",
+  "B. Score qualite Techique Corrigee": "ب. تقييم الفئة الفنية التصحيح",
+  "C. Score qualite Percu": "C. تقييم الفئة الفنية",
+  "B. Score qualite Percu": "ب. تقييم الفئة الفنية",
+  "A. Score qualite Techique": "أ. تقييم الفئة الفنية",
+  "Moughtaa de :": "موغاتاا: ",
+  "Sous-total Aire de Santé": "المنطقة الصحية المجموع الفرعي",
+  "Sous-total Aire de": "المساحة الإجمالية الفرعية",
+  "Arrêté la présente facture pour le mois de": "التحصيل الشهري للشهر: ",
+  "date": "تاريخ",
+  "Time Type": "نوع الوقت",
+  "Select...": "يختار...",
+  "Quarter": "ربع",
+  "Time Options": "خيارات الزمن",
+  "Feb": "فبراير",
+  "Mar": "مارس",
+  "Apr": "ابريل",
+  "May": "مايو",
+  "Jun": "يونيو",
+  "Jul": "يوليو",
+  "Aug": "أغسطس",
+  "Sep": "سبتمبر",
+  "Oct": " اكتوبر",
+  "Nov": " نوفمبر",
+  "Dec": " ديسمبر",
+  "Reset": "اعادة تعيين",
+  "Dimenssion Temps": " البعد الزمني",
+  "Selectionnez les dimensions du temps": "حدد الأبعاد الزمنية",
+  "Dimenssion Space": "مساحة البعد",
+  "Selectionnez les dimensions de l'espace": " حدد أبعاد المساحة",
+  "Selectionnez les dimensions de l'indicateur": " حدد المقاسات للمؤشر",
+  "january": "يناير",
+  "february": "فبراير",
+  "march": "مارس",
+  "may": "مايو",
+  "august": "أغسطس",
+  "september": "سبتمبر",
+  "october": "اكتوبر",
+  "november": "نوفمبر",
+  "Dimenssion Indicateur": "مقياس الوحدة",
+  "december": "ديسمبر",
+  "actions": "الاجراءات",
+  "Proporition des fichiers saisis": "النسبة المئوية للملفات المدخلة",
+  "ZONESANITAIRE": "المنطقة الصحية",
+  "pour la formation sanitaire": "للتدفعات الصحية",
+  "MRU à verser sur le compte numéro:": "MRU المدفوعات للشهر: ",
+  "ouvert à": "مفتوح ل",
+  "Responsable de la FOSA": "المسؤول عن المدفوعات",
+  "RESET": "إعادة الضبط",
+  "Vérificateur": "التحقق",
+  " Signature:  ": "التوقيع :",
+  "Total à payer pour le mois": "المجموع الكلي للمدفوعات",
+  "Generer": "إنشاء",
+  "TOTAL A PAYER AU MOUGHATA": "المجموع الكلي للمدفوعات",
+  "Signature:": "التوقيع :",
+  "Nom et Prénom:": "الاسم واللقب",
+  "Arrêté la présente facture pour le mois de ": "التحصيل الشهري للشهر: ",
+  "TOTAL A PAYER AU WILAYA ": "المجموع الكلي للمدفوعات",
+  "MOUGATAA": "موغاتا",
+  "AIRES DE SANTE": "الفضاءات الصحية",
+  "MONTANT QUANTITE (MRU)": "الكمية (MRU)",
+  "MONTANT A PAYER (MRU)": "المبلغ المدفوع (MRU)",
+  "BANQUE": "البنك",
+  "N° COMPTE:": "رقم الحساب :",
+  "N° COMPTE": "رقم الحساب ",
+  "Année:": "عام :",
+  "Mois:": "شهر :",
+  "Jour :": "يوم :",
+  "Signataire 2": "الموقع 2",
+  "Signataire 1": "الموقع 1",
+  "Nom et Prénom: ...............................................": "الاسم واللقب: ..............................................",
+  "Nom et Prénom: ...................................................": "الاسم واللقب: ............................................",
+  "TOTAL A PAYER A L'AIRE DE SANTE": "المجموع الكلي للمدفوعات",
+  "IMPRIMER": "طباعة",
+  "Wilaya de :": "الولاية:",
+  "Unité Nationale FBR": "الوحدة الوطنية للتمويل القائم على الأداء ",
+  "Ministère de la santé": "وزارة الصحة",
+  "Honneur-fraternité-justice": "شرف-إخاء-عدل",
+  "République Islamique de Mauritanie": "الجمهورية الإسلامية الموريتانية",
+  "Role Description": "وصف الرتب",
+  "Modification de rôle": "تعديل الرتب",
+  "Listes de roles": "قائمة الرتب",
+  "Charts depending on the dimensions of (time,space,indicators)": "الرسوم البيانية تعتمد على البعد الزمني والمكاني والمؤشر",
+  "timeDimension": "البعد الزمني",
+  "spaceDimension": "البعد المكاني",
+  "indicatorDimension": "البعد المؤشر",
+  "close": "إغلاق",
+  "create": "انشاء",
+  "completudeDonnes": "اكتمال البيانات",
+  "Cancel": "الغاء",
+  "nouveauFichier": "ملف جديد",
+  "Connexion réussie": "تسجيل الدخول",
+  "Portail PBF MAURITANIE, Tous droits réservés": "بوابة PBF موريتانيا, جميع الحقوق محفوظة",
+  "© 2024, , Portail PBF MAURITANIE, Tous droits réservés": "© 2024, , بوابة PBF موريتانيا, جميع الحقوق محفوظة",
+  "Indicateur Comaparatif par Zone": "المؤشر المقارن حسب المنطقة",
+  "Score Qualité comparatif par paquets": "مقارنة نتائج النظام الجهوي بواسطة الباقات",
+  "Indicateur Comparatifs pour plusieurs entités ou régions": "مقارنات النتائج لعدة منطقة أو منطقة",
+  "Autres": "اخرى",
+  "AUTRES": "اخرى",
+  "Administration": "الإدارة",
+  "ADMINISTRATION": "الإدارة",
+  "planifications": "الخطة",
+  "Portail Pbf - ": "بوابة التمويل القائم على الأداء",
+  "portail pbf": "بوابة التمويل القائم على الأداء",
+  "PORTAIL PBF": "بوابة التمويل القائم على الأداء",
+  "EVALUATION DE LA PERFORMANCE DU COSA": "تقييم الأداء من نظام المجموعة الجهوية",
+  "EVALUATION DE LA PERFORMANCE DE LA CSM": "تقييم الأداء من نظام المجموعة الجهوية",
+  "Trimestrielle": "التقريبية",
+  "Portail Pbf": "بوابة التمويل القائم على الأداء",
+  "Configuration d'une alerte": "تكوين تنبيه",
+  "Alertes": "التنبيهات",
+  "Utilisateurs: ERV": "المستخدمون: الفريق الجهوي للتدقيق",
+  "Data Manager - Technique": "تقنية تسيير جمع البيانات",
+  "Veuillez remplir tous les champs marqués d'une": "تفضلوا بملء كل حقل يحمل العلامة",
+  "Administrateur Régional": "الإداري الجهوي",
+  "PBF Manager + Admin Regional": "تمويل قائم على تحقيق النتائج FBR + الإدارة الجهوية ",
+  "Staff admin AAP": "AAPالطاقم الإداري دعوة للمشاريع ",
+  "Erreur de création de la tâche du groupe": "خطأ في إنشاء مهمة المجموعة ",
+  "Enregistrement réussi": "التسجيل ناجح",
+  "Erreur d'enregistrement de la tâche": "خطأ في تسجيل المهمة ناجح",
+  "Enregistrement de la tâche réussi": "تسجيل المهمة ناجح",
+  "Erreur d'effacement du groupe": "خطأ في حذف المجموعة",
+  "Erreur d'enregistrement": "خطأ في التسجيل",
+  "Le groupe a bien été enregistré": "تم تسجيل المجموعة بالفعل",
+  "Erreur de mise à jour de votre profil": "طأ في تحديث ملفكم الشخصي",
+  "Votre profil a bien été mis à jour Vous allez être déconnecté afin de prendre en compte les changements.": "تم بالفعل تحديث حسابكم سينقطع عنكم الربط بالانترنت حتى تأخذوا التغييرات في الحسبان",
+  "Ouverture du formulaire de gestion de profil": "فتح استمارة تسيير الملف الشخصي",
+  "Erreur de mise à jour du profil, informations obligatoires manquantes": "خطأ في تحديث المعلومات الإلزامية الناقصة",
+  "Zone de travail": "منطقة العمل",
+  "Information de connexion": "معلومات الربط بالانترنت ",
+  "Identification": "تعريف",
+  "Compte(s) utilisateur effacé(s)": "تم حذف حساب المستخدم",
+  "Erreur d'effacement": "خطأ في المحو",
+  "Effacement réussi": "محو ناجح",
+  "Une erreur s'est produite lors de l'enregistrement du compte": "وقع خطأ إبان تسجيل حساب ",
+  "Le compte d'utilisateur a été enregistré": "تم تسجيل حساب المستخدم",
+  "Clique + Ctrl": "ضغط + كنترول ",
+  "Activer le compte": "تفعيل الحساب",
+  "Groupe utilisateur": ":المجموعة المستخدمة",
+  "Publier": "نشر",
+  "Une erreur s'est produite lors du changement du groupe": "وقع خطأ إبان تغيير نظام المجموعة",
+  "Le statut a bien été changé": "تم تغيير نظام المجموعة بالتأكيد ",
+  "Une erreur s'est produite lors du changement du statut du groupe": "وقع خطأ إبان تغيير نظام المجموعة",
+  "Le statut du groupe a bien été changé": "Le statut du groupe a bien été changé",
+  "Une erreur s'est produite lors de la modification du statut": "وقع خطأ إبان تعديل النظام",
+  "Le profil a bien été modifié": "تم تغيير الملف الشخصي بالتأكيد",
+  "Mettre à jour le profil": "تحديث الملف الشخصي",
+  "Editer un compte": "تعديل حساب",
+  "Editée le:": "تم تحريره في",
+  "Ajouter un compte": "اضافة حساب",
+  "Le Groupe par défaut est manquant": "المجموعة الافتراضية مفقودة",
+  "Groupe par défaut": "المجموعة الافتراضية",
+  "Tâche": "المهمة",
+  "Permission": "الإذن",
+  "Classement": "الفئة",
+  "Hérité par": "موروث من",
+  "Groupe": "المجموعة",
+  "Téléphone": "الهاتف",
+  "Fonction": "الوظيفة",
+  "Email (nom d'utilisateur)": "البريد الإلكتروني (اسم المستخدم)",
+  "Nom complet": "الاسم الكامل",
+  "Autorisations": "الترخيص",
+  "1er Trimestre": "الربع الأول",
+  "2eme Trimestre": "الربع الثاني",
+  "3eme Trimestre": "الربع الثالث",
+  "4eme Trimestre": "الربع الرابع",
+  "Tâches": "المهام",
+  "Groupes": "مجموعات",
+  "Planifications": "الخطط",
+  "Facture bonus qualité": "فاتورة بونس للمقاطعة",
+  "Facture par Formation Sanitaire": "فاتورة لكل مكون صحي",
+  "Facture consolidée subsides mensuelle - AS": "الفاتورة الموحدة للدعم الشهري - الفضاء الصحي",
+  "Facture consolidée prime qualité  AS": "فاتورة موحدة عالية الجودة- الفضاء الصحي",
+  "Facture consolidée mensuelle - AS": "الفاتورة الموحدة الشهرية - الفضاء الصحي",
+  "Facture consolidée mensuelle - Moughataa": "الفاتورة الشهرية الموحدة – المقاطعة",
+  "Facture consolidée mensuelle": "الفاتورة الشهرية الموحدة",
+  "Facture consolidée mensuelle - Wilaya": "الفاتورة الشهرية الموحدة - الولاية",
+  "Facture consolidée mensuelle prestataires": "فاتورة المورد الشهرية الموحدة",
+  "Portail financement basé sur le résultat": "منصة الإيرادات من خلال النتيجة النهائية",
+  "Tableau de bord": "لوحة التحكم",
+  "data entry": "ادخال البيانات",
+  "change photo": "تغيير الصورة",
+  "search...": "بحث...",
+  "search": "بحث",
+  "Role": "دور",
+  "Payroll": "الرواتب",
+  "Repository Management": "إدارة المستودعات",
+  "API Control": "التحكم بالسيرفر",
+  "Reporting": "التقارير",
+  "Financial Management": "المالية",
+  "Database Management": "ادارة قاعدة البيانات",
+  "Disputes Management": "ادارة المحالات",
+  "Content Management": "مدونة المحتوى",
+  "Read": "قراءة",
+  "Select All": "تحديد الكل",
+  "add role": "اضافة دور",
+  "Completeness": "المطابقة",
+  "Moughataa de": " المقاطعة",
+  "Facture subsides mensuelle prestataires": "فاتورة دعم المزود الشهرية ",
+  "generer": "إنشاء",
+  "Facture bonus qualite": "فاتورة مكافأة الجودة",
+  "Facture subsides trimestrielle": "المبالغ المتبقية للفواتير الشهرية",
+  "Facture Par Fosa": "المبالغ المتبقية للفواتير الشهرية",
+  "Facture consolidée prime qualite - AS": "المبالغ المتبقية للفواتير الشهرية - الصحيح",
+  "Facture subsides mensuelle prestataires - Wilaya": "المبالغ المتبقية للفواتير الشهرية - الولاية",
+  "Facture consolidée subsides mensuelle - AS": "المبالغ المتبقية للفواتير الشهرية - الصحيح",
+  "Facture consolidée subsides mensuelle - Moughataa": "المبالغ المتبقية للفواتير الشهرية - الموغاتا",
+  "Facture consolidée subsides mensuelle - Wilaya": "المبالغ المتبقية للفواتير الشهرية - الولاية",
+  "Search Budget": "بحث عن الميزانية",
+  "Edit budget": "تعديل الميزانية",
+  "Add budget": "اضافة الميزانية",
+  "Add bank": "اضافة بنك",
+  "Edit bank": "تعديل البنك",
+  "Edit password": "تعديل كلمة المرور",
+  "Edit user": "تعديل المستخدم",
+  "Banque Mauritanienne de l'Investissement": "بنك موريتانيا للاستثمار",
+  "Banque Nationale de Mauritanie": "بنك المملكة العربية العربية",
+  "Banque Muamelat As Sahiha": "بنك معملات الصحيح",
+  "AttijariBank": "بنك المساهمة",
+  "Nouvelle Banque de Mauritanie": "بنك موريتانيا",
+  "Société Générale Mauritanie": "المملكة العربية العربية",
+  "Banque Populaire de mauritanie": "بنك البحريني للتجارة",
+  "Banque Mauritanienne pour le Commerce Internationale": "بنك موريتانيا للتجارة الدولية",
+  "Banque pour le Commerce et L'industrie": "بنك للتجارة والصناعة",
+  "Banks": "البنوك",
+  "creationDate": "تاريخ الانشاء",
+  "Demandes de permissions exceptionnelles": "طلبات الصلاحيات الاضافية",
+  "Permission requests": "طلبات الصلاحيات",
+  "Target populations": "المستهدفين",
+  "Parameters": "المعايير",
+  "Write": "كتابة",
+  "Create": "انشاء",
+  "User Management": "ادارة المستخدمين",
+  "Enter Role Name": "ادخل اسم الدور",
+  "Role Name": "اسم الدور",
+  "enregistrer": "حفظ",
+  "Enregistrer": "حفظ",
+  "Annuler": "الغاء",
+  "Accès administrateur": "الوصول للمدير",
+  "Autorisations de rôle": "تعيين الصلاحيات",
+  "Add": "اضافة",
+  "BANQUES": "البنوك",
+  "Ajouter un rôle": "اضافة دور",
+  "Définir les autorisations de rôle": "تعيين الصلاحيات",
+  "Add role": "اضافة الدور",
+  "AJOUTER UN ROLE": "اضافة دور",
+  "Access Management": "ادارة الوصول",
+  "Modifier le rôle": "تعديل الدور",
+  "users": "المستخدمين",
+  "Users": "المستخدمين",
+  "Total": "المجموع",
+  "Utilisateurs": "المستخدمون",
+  "Coordinateur ERV": "منسق الفريق الجهوي للتدقيق",
+  "Régulateurs centraux": "مكلفون بالتنظيم على المستوى المركزي ",
+  "Opérateur ERV": "عامل فريق جهوي للتدقيق",
+  "Utilisateurs: EAT": "المستخدمين: EAT",
+  "Front-end Manager": "مسير الواجهة",
+  "Super administrateur": "مسئول عالي",
+  "Administrateur National": "الإداري الوطني",
+  "Invité": "مدعو",
+  "Listes de groupes": "قائمة المجموعات",
+  "Document": "وثيقة",
+  "updated_at": "تم التحديث في",
+  "image": "صورة",
+  "Bonus": "المكافأة",
+  "icone": "ايقونة",
+  "Add documentation": "اضافة مستند",
+  "documentations": "المستندات",
+  "Edit news": "تعديل خبر",
+  "Add news": "اضافة خبر",
+  "entityClass": "فئة الإتصال",
+  "Code Sis": "كود Sis",
+  "Copie du contract (PDF)": "نسخة من العقد (PDF)",
+  "Longitude": "طول",
+  "Latitude": "عرض",
+  "Bank": "بانك",
+  "Les Comptes de cette Entité": "الحسابات لهذه الإتصال",
+  "Les Contrats de cette Entité": "العقود لهذه الإتصال",
+  "Les Contacts de cette Entité": "للاتصالات لهذه الإتصال",
+  "moughataa": "مقاطع",
+  "Niveaux": "المستويات",
+  "Niveau parent": "المستوى الرئيسي",
+  "PBF - Indicateurs Comparatifs": "PBF - مؤشرات مقارنة",
+  "iconFile": "صورة",
+  "publié": "تم النشر",
+  "ordre de tri": "ترتيب",
+  "résultat en temps réel": "نتيجة في وقت الاستخدام",
+  "Search Elements": "بحث عن المؤشرات",
+  "Le Type de fichier de l'indicateur": "نوع ملف المؤشر",
+  "Description": "وصف",
+  "Icone de l'indicateur": "الرمز الشريطي للمؤشر",
+  "Appliquer se bonus d'indigence": "تطبيق البونص على الاستغلال",
+  "Tarif Modifiable": "التكلفة قابلة للتعديل",
+  "Résultat en temps réel": "النتيجة في وقت الاستخدام",
+  "Utiliser le couverture": "استخدام الغرض",
+  "Montrer Sur la page d'accueil": "اظهار على صفحة القيادة",
+  "Population cible utilisée": "السكان المستهدفة",
+  "Unités": "وحدات",
+  "Type de donnée": "نوع البيانات",
+  "Titre": "العنوان",
+  "Nom commun": "اسم مجموعة",
+  "Classe d'entité affiliée": "فئة الوكيل",
+  "mensuelle": "شهريا",
+  "Mensuelle": "شهري",
+  "Types d'entité affiliée": "فئات الوكيل",
+  "Groupes utilisateurs": "مجموعات المستخدم",
+  "template": "المثال",
+  "Classe D'entité Affiliée": "فئة الوكيل",
+  "nouveau": "جديد",
+  "les_indicateurs": "المؤشرات",
+  "qtty_evaluation": "كمية التقييم",
+  "qlty_evaluation": "تقييم الجودة",
+  "frequency": "تكرار",
+  "financement": "التمويل",
+  "dashboards": "لوحة القيادة",
+  "Dashboards": "لوحات القيادة",
+  "CRM": "CRM",
+  "Analytics": "تحليلات",
+  "eCommerce": "التجارة الإلكترونية",
+  "Apps & Pages": "التطبيقات والصفحات",
+  "Apps": "تطبيقات",
+  "Chat": "دردشة",
+  "Calendar": "تقويم",
+  "Invoice": "فاتورة",
+  "List": "قائمة",
+  "Preview": "معاينة",
+  "User": "المستعمل",
+  "View": "رأي",
+  "Overview": "ملخص",
+  "Security": "حماية",
+  "Billing & Plans": "الفواتير والخطط",
+  "Notifications": "إشعارات",
+  "Connection": "اتصال",
+  "Roles & Permissions": "الأدوار والأذونات",
+  "Roles": "الأدوار",
+  "Permissions": "أذونات",
+  "Pages": "الصفحات",
+  "User Profile": "ملف تعريفي للمستخدم",
+  "Profile": "الملف الشخصي",
+  "Teams": "فرق",
+  "Connections": "روابط",
+  "Account Settings": "إعدادت الحساب",
+  "Account": "الحساب",
+  "Billing": "الفواتير",
+  "FAQ": "التعليمات",
+  "Help Center": "مركز المساعدة",
+  "Pricing": "التسعير",
+  "Miscellaneous": "متفرقات",
+  "Coming Soon": "قريبا",
+  "Under Maintenance": "تحت الصيانة",
+  "Page Not Found - 404": "الصفحة غير موجودة - 404",
+  "Not Authorized - 401": "غير مصرح به - 401",
+  "Server Error - 500": "خطأ في الخادم - 500",
+  "Auth Pages": "صفحات المصادقة",
+  "Login": "تسجيل الدخول",
+  "Login v1": "تسجيل الدخول v1",
+  "Login v2": "تسجيل الدخول الإصدار 2",
+  "Login With AppBar": "تسجيل الدخول باستخدام AppBar",
+  "Register": "يسجل",
+  "Register v1": "تسجيل الإصدار 1",
+  "Register v2": "تسجيل الإصدار 2",
+  "Register Multi-Steps": "تسجيل متعدد الخطوات",
+  "Verify Email": "التحقق من البريد الإلكتروني",
+  "Verify Email v1": "التحقق من البريد الإلكتروني الإصدار 1",
+  "Verify Email v2": "التحقق من البريد الإلكتروني الإصدار 2",
+  "Forgot Password": "هل نسيت كلمة السر",
+  "Forgot Password v1": "نسيت كلمة المرور v1",
+  "Forgot Password v2": "نسيت كلمة المرور v2",
+  "Reset Password": "إعادة تعيين كلمة المرور",
+  "Reset Password v1": "إعادة تعيين كلمة المرور v1",
+  "Reset Password v2": "إعادة تعيين كلمة المرور الإصدار 2",
+  "Two Steps": "خطوتين",
+  "Two Steps v1": "خطوتين v1",
+  "Two Steps v2": "خطوتان - الإصدار 2",
+  "Wizard Examples": "أمثلة على المعالج",
+  "Checkout": "الدفع",
+  "Property Listing": "قائمة الممتلكات",
+  "Create Deal": "إنشاء صفقة",
+  "Dialog Examples": "أمثلة الحوار",
+  "User Interface": "واجهة المستخدم",
+  "UI": "واجهة المستخدم",
+  "Typography": "الطباعة",
+  "Icons": "الرموز",
+  "Cards": "البطاقات",
+  "Basic": "أساسي",
+  "Advanced": "متقدم",
+  "Statistics": "إحصائيات",
+  "Widgets": "الحاجيات",
+  "Gamification": "التلعيب",
+  "Actions": "أجراءات",
+  "Components": "عناصر",
+  "Accordion": "الأكورديون",
+  "Alerts": "تنبيهات",
+  "Avatars": "الآلهة",
+  "Badges": "شارات",
+  "Buttons": "أزرار",
+  "Button Group": "مجموعة الأزرار",
+  "Chips": "رقائق",
+  "Dialogs": "الحوارات",
+  "Menu": "قائمة الطعام",
+  "Pagination": "ترقيم الصفحات",
+  "Progress": "تقدم",
+  "Ratings": "التقييمات",
+  "Snackbar": "مطعم الوجبات الخفيفة",
+  "Swiper": "سويبر",
+  "Tabs": "نوافذ التبويب",
+  "Timeline": "الجدول الزمني",
+  "Toasts": "الخبز المحمص",
+  "Tree View": "عرض الشجرة",
+  "More": "أكثر",
+  "Forms & Tables": "النماذج والجداول",
+  "Form Elements": "المؤشرات النموذج",
+  "Text Field": "مجال التحرير مكان كتابة النص",
+  "Select": "يختار",
+  "Checkbox": "خانة اختيار",
+  "Radio": "مذياع",
+  "Custom Inputs": "المدخلات المخصصة",
+  "Textarea": "تيكستاريا",
+  "Autocomplete": "الإكمال التلقائي",
+  "Date Pickers": "منتقي التاريخ",
+  "Switch": "يُحوّل",
+  "File Uploader": "رافع الملف",
+  "Editor": "محرر",
+  "Slider": "المنزلق",
+  "Input Mask": "قناع الإدخال",
+  "Form Layouts": "تخطيطات النموذج",
+  "Form Validation": "التحقق من صحة النموذج",
+  "Form Wizard": "معالج النماذج",
+  "Table": "الطاولة",
+  "Mui DataGrid": "موي داتاجريد",
+  "Charts & Misc": "الرسوم البيانية ومتفرقات",
+  "Charts": "الرسوم البيانية",
+  "Apex": "ذروة",
+  "Recharts": "يعيد رسم الخرائط",
+  "ChartJS": "رسم بياني",
+  "Access Control": "صلاحية التحكم صلاحية الدخول",
+  "Others": "آحرون",
+  "Menu Levels": "مستويات القائمة",
+  "Menu Level 2.1": "مستوى القائمة 2.1",
+  "Menu Level 2.2": "مستوى القائمة 2.2",
+  "Menu Level 3.1": "مستوى القائمة 3.1",
+  "Menu Level 3.2": "مستوى القائمة 3.2",
+  "Disabled Menu": "قائمة المعوقين",
+  "Raise Support": "رفع الدعم",
+  "Documentation": "المستندات",
+  "Launch a deal": "l",
+  "title": "عنوان",
+  "dataCompleteness": "اكتمال البيانات",
+  "hero_t": "التمويل القائم على النتائج",
+  "hero_p": " هو نهج لإصلاح نظام الرعاية الصحية يهدف إلى تحسين كفاءة وجودة الخدمات والرعاية المقدمة من مؤسسات الرعاية الصحية. إنه متناسق تمامًا مع جهود البلاد في تحقيق التغطية الصحية الشاملة وحماية الفئات الضعيفة. يسمح نهج التمويل الأدائي بـ...",
+  "fileType": "نوع الملف",
+  "Titre d'indicatuer": "عنوان المؤشر",
+  "april": "أبريل",
+  "june": "يونيو",
+  "GROUPNAME": "اسم المجموعة",
+  "Option": "خيار",
+  "STARTDAT": "تاريخ البدء",
+  "CLOSEDAT": "تاريخ الاغلاق",
+  "july": "يوليو",
+  "quantityCPA": "كمية تكلفة الاكتساب",
+  "t2Year": "T2 - 2023",
+  "dataEntryPrograms": "برامج إدخال البيانات",
+  "Publication": "النشر",
+  "Add Target Population": "اضافة مجموعة النتائج",
+  "dataEntryStatistics": "إحصائيات إدخال البيانات",
+  "entityInformationCompleteness": "اكتمال معلومات الكيان",
+  "publicationStatusTracking": "تتبع حالة النشر",
+  "element_groups": "مجموعات المؤشرات",
+  "Groups": "مجموعات",
+  "Group members": "اعضاء المجموعة",
+  "groups": "مجموعات",
+  "group_members": "اعضاء المجموعة",
+  "Add Post": "اضافة منشور",
+  "Budgets": "الميزانيات",
+  "Completude": "اكتمال",
+  "logsSummary": "ملخص السجلات",
+  "imageDropdown": "التصور",
+  "adminName": "المشرف",
+  "adminTitle": "مسؤل",
+  "total": "المجموع",
+  "period": "فترة",
+  "entry": "إدخال البيانات",
+  "validate_level": "مستوى التحقق من الصحة",
+  "settings": "إعدادات",
+  "logout": "تسجيل خروج",
+  "home": "الرئيسية",
+  "selectLabel": "اختر واحدة",
+  "data": "بيانات",
+  "fileTypes": "أنواع الملفات",
+  "searchPlaceholder": "يبحث...",
+  "searchLabel": "ابحث في الموقع",
+  "organizations": "المنظمات",
+  "description": "وصف",
+  "data_entry": "ادخال بيانات",
+  "file_cum_rest": "من بين جميع العناصر داخل الملف ، ضمان دقة البيانات والاتساق.",
+  "the": "ال",
+  "thetotalvalue": "القيمة الإجمالية",
+  "cumulative total": "المجموع التراكمي",
+  "is_a": "هو",
+  "field": "مجال",
+  "for data entry": "لإدخال البيانات",
+  "mandatory": "إلزامي",
+  "It must": "يجب",
+  "match": "يتطابق",
+  "translate_guide": "يترجم هذا الزر حقل الوصف ، ويوفر للمستخدمين راحة التبديل بين العربية والإنجليزية حسب الحاجة لفهم واضح للمحتوى.",
+  "Founded": "تأسست",
+  "Raised": "ساهمت",
+  "Countries": "الدول",
+  "Projects": "المشاريع",
+  "zones": "المناطق",
+  "hierarchies": "التسلسلات الهرمية",
+  "levels": "المستويات",
+  "entityTypes": "أنواع الكيانات",
+  "partners": "الشركاء",
+  "entityType": "نوع الكيان",
+  "Entitytype": "نوع الكيان",
+  "desc_calcul_ecart": "هذا هو الفرق المئوي بين القيمة المعلنة والقيمة المؤكدة، أو كفارق مباشر عندما تكون القيمة المؤكدة صفر، مما يضمن تقييم دقيق للتباين.",
+  "group": "مجموعة",
+  "Pourcentage_d'équité": "نسبة الأسهم",
+  "entityClasses": "فئات الكيان",
+  "entityClasse": "فئة الكيان",
+  "donateurs": "المانحون",
+  "entities": "جهات",
+  "contracts": "العقود",
+  "contacts": "جهات الاتصال",
+  "reports": "التقارير",
+  "importExport": "استيراد و تصدير",
+  "content": "محتوى",
+  "Paramètres": "إعدادات",
+  "login": "تسجيل الدخول",
+  "login_headline": "تسجيل الدخول إلى حسابك",
+  "signup": "اشتراك",
+  "wb_quote": "حلمنا عالم خالي من الفقر",
+  "company_values": "قيم الشركة",
+  "wb_company_values": "بناء مستقبل أفضل ومستدام",
+  "wb_desc1": "نسعى للقضاء على الفقر وبناء الرخاء المشترك في الدول النامية. من خلال توفير الموارد، ومشاركة المعرفة، وبناء القدرات، وتشكيل الشراكات في القطاعين العام والخاص، نعمل على تعزيز النمو الاقتصادي المستدام والشامل.",
+  "wb_desc2": "التزام بالتنمية: جهودنا متواصلة في تمكين الدول لتحقيق النمو الاقتصادي المستدام ومكافحة الفقر.",
+  "wb_desc3": "الابتكار والقيادة: نقود الجهود الدولية لتقديم حلول لأكثر التحديات التنموية تعقيداً.",
+  "wb_desc4": "التنوع والشمول: قوتنا تكمن في تنوعنا، ونحن ملتزمون بأن نصبح مكان عمل شامل يستفيد من مختلف الثقافات ووجهات النظر لمجتمعنا العالمي.",
+  "wb_desc5": "النزاهة والمساءلة: نحن نلتزم بأعلى المعايير الأخلاقية، ونكون شفافين ومسؤولين عن تصرفاتنا تجاه الأشخاص الذين نخدمهم.",
+  "wb_ceo_name": "ديفيد مالباس",
+  "wb_ceo_desc": "رئيس مجموعة البنك الدولي",
+  "donot_have_account": "ليس لديك حساب؟",
+  "forgot_password": "هل نسيت كلمة السر؟",
+  "or": "أو",
+  "Nombre de personnel": "عدد الموظفين",
+  "table_title_entity": "جهات",
+  "table_title_entity_classe": "فئات الكيان",
+  "table_title_entity_type": "أنواع الكيانات",
+  "table_title_level": "المستويات",
+  "table_title_zone": "المناطق",
+  "table_title_contacts": "جهات الاتصال",
+  "table_title_contracts": "انكماش",
+  "table_title_file": "ملفات",
+  "table_title_element": "المؤشرات",
+  "table_title_filetype": "أنواع الملفات",
+  "table_title_news": "أخبار",
+  "bank": "البنك",
+  "table_title_docs": "وثائق",
+  "forms_create_entity": "إنشاء كيان",
+  "forms_create_entity_classe": "إنشاء فئة الكيان",
+  "forms_create_entity_type": "إنشاء نوع الكيان",
+  "forms_create_level": "إنشاء المستوى",
+  "forms_create_zone": "إنشاء منطقة",
+  "forms_create_contact": "إنشاء اتصال",
+  "forms_create_contract": "إنشاء العقد",
+  "forms_create_file": "إنشاء ملف",
+  "forms_create_element": "إنشاء مؤشر",
+  "forms_create_filetypes": "إنشاء نوع الملف",
+  "forms_create_news": "خلق جديد إبداع جديد",
+  "forms_create_docs": "إنشاء مستند",
+  "forms_edit_entity": "تحرير الكيان",
+  "forms_edit_entity_classe": "تحرير فئة الكيان",
+  "forms_edit_entity_type": "تحرير نوع الكيان",
+  "forms_edit_level": "تحرير المستوى",
+  "forms_edit_zone": "تحرير المنطقة",
+  "forms_edit_contact": "تحرير جهة الاتصال",
+  "forms_edit_contract": "تحرير العقد",
+  "forms_edit_file": "تعديل ملف",
+  "forms_edit_element": "تحرير العنصر",
+  "forms_edit_filetypes": "تحرير نوع الملف",
+  "forms_edit_news": "تحرير جديد",
+  "forms_edit_docs": "تحرير المستند",
+  "forms_view_entity": "عرض الكيان",
+  "forms_view_entity_classe": "عرض فئة الكيان",
+  "forms_view_entity_type": "عرض نوع الكيان",
+  "forms_view_level": "عرض المستوى",
+  "forms_view_zone": "عرض المنطقة",
+  "forms_view_contact": "عرض الاتصال",
+  "forms_view_contract": "عرض العقد",
+  "forms_view_file": "استعراض الملف",
+  "forms_view_element": "عرض العنصر",
+  "forms_view_filetypes": "عرض نوع الملف",
+  "forms_view_news": "عرض جديد",
+  "forms_view_docs": "عرض المستند",
+  "forms_delete": "يمسح",
+  "forms_delete_confirmation": "هل أنت متأكد أنك تريد حذف هذا السجل؟",
+  "delete_success": "تم الحذف بنجاح",
+  "test": "اختبار",
+  "year": "سنة",
+  "month": "شهر",
+  "login_error": "اسم المستخدم أو كلمة المرور غير صحيحة!",
+  "selectPlaceholder": "حدد...",
+  "permissions": "أذونات",
+  "page_notfound": "الصفحة غير موجودة",
+  "page_notfound_sorry": "عذرا، الصفحة التي تبحث عنها غير موجودة.",
+  "goback_home": "عد إلى الصفحة الرئيسية",
+  "parameters": "الاعدادات",
+  "day": "يوم",
+  "totalValue": "القيمة الإجمالية",
+  "decalred_value": "قيمة الملصق الأحمر",
+  "validated_value": "قيمة تم التحقق منها",
+  "verified_value": "قيمة تم التحقق منها",
+  "file_type": "نوع الملف",
+  "file_types": "أنواع الملفات",
+  "file_element": "عنصر الملف",
+  "file_elements": "عناصر الملف",
+  "element": "مؤشر",
+  "back": "عد الى الخلف",
+  "elements": "المؤشرات",
+  "amount": "كمية",
+  "price": "سعر",
+  "entity": "مؤسس",
+  "entitites": "جهات",
+  "file": "ملف",
+  "files": "ملفات",
+  "total_value": "القيمة الإجمالية",
+  "Search": "ابحث ...",
+  "username": "اسم المستخدم",
+  "password": "كلمة المرور",
+  "Password": "كلمة المرور",
+  "submit": "حفظ",
+  "Files": "ملفات",
+  "File Types": "نوع الملفات",
+  "Elements": "المؤشرات",
+  "Zones": "المناطق",
+  "Hierarchies": "التسلسلات",
+  "Levels": "المستويات",
+  "Entities": " المنشآت الصحية",
+  "ENTITIES": "المنشآت الصحية",
+  "Entity Types": "أنواع الكيانات",
+  "Entity Classes": "نوعية المؤسسة",
+  "Contracts": "العقود",
+  "Contacts": "جهات الاتصال",
+  "Actualités": "أخبار",
+  "documents:": "وثائق: ",
+  "Documents": "وثائق",
+  "Reports": "تقارير",
+  "Import Export": "استيراد وتصدير",
+  "Content": "المحتوى",
+  "Settings": "الإعدادات",
+  "Dashboard": "لوحة القيادة",
+  "Data": "البيانات",
+  "Organizations": "المؤسسات",
+  "CMS": "نظام إدارة المحتوى",
+  "RÉSULTATS-EN-TEMPS": "نتائج محينة",
+  "Evolution": "تطور",
+  "La-qualité-des": "جودة الرعاية تُقاس بشكل مستمر. تتم مراجعة هذه النتائج من قبل جهات خارجية مستقلة.",
+  "Fichiers": "الملفات",
+  "Add": "إضافة",
+  "Mois": "شهر",
+  "Année": "عام",
+  "Valeur totale": "القيمة الإجمالية",
+  "Type de fichier": "نوع الملف",
+  "Entité": "المؤسسة",
+  "Your profile": "ملفك الشخصي",
+  "Sign out": "تسجيل الخروج",
+  "savoir plus": "معرفة المزيد",
+  "Name": "الاسم",
+  "Title": "العنوان",
+  "Created At": "تم الإنشاء في",
+  "Population Count": "عدد السكان",
+  "Population Year": "سنة السكان",
+  "Opening Date": "تاريخ الافتتاح",
+  "Closed Date": "تاريخ الإغلاق",
+  "Parent Id": "معرف الأصل",
+  "Level Id": "معرف المستوى",
+  "Level": "المستوى",
+  "add Budget": "اضافة الميزانية",
+  "Parent": "الفرع الأب",
+  "population": "السكان",
+  "contactPerson": "شخص الاتصال",
+  "bankAccount": "حساب البنك",
+  "Allowed": " مسموح",
+  "Not Allowed": "غير مسموح",
+  "Add Bank": "اضافة البنك",
+  "Assignabale Type": "نوع المسموح",
+  "Start Date": "تاريخ البداية",
+  "Add Entity": "اضافة المنشآة",
+  "startDate": "تاريخ البداية",
+  "endDate": "تاريخ الانتهاء",
+  "Phone Number": "رقم الهاتف",
+  "Email": "البريد الإلكتروني",
+  "Rapports": "التقارير",
+  "Factures de quantité": "فواتير الكمية",
+  "Factures de qualité": "فواتير الجودة",
+  "Gestion-des-rapports": "إدارة التقارير وفواتير التقييم",
+  "Type de facture": "نوع الفاتورة",
+  "Wilaya": "الولاية",
+  "Moughataa": "المقاطعة",
+  "Month": "شهر",
+  "Year": "عام",
+  "Janvier": "يناير",
+  "Février": "فبراير",
+  "Mars": "مارس",
+  "Avril": "إبريل",
+  "Mai": "مايو",
+  "Juin": "يونيو",
+  "Juillet": "يوليو",
+  "Août": "أغسطس",
+  "Septembre": "سبتمبر",
+  "Octobre": "أكتوبر",
+  "Novembre": "نوفمبر",
+  "Décembre": "ديسمبر",
+  "Zone Sanitaire": "المنطقة الصحية",
+  "declaredValue": "القيمة المعلنة",
+  "verifiedValue": "القيمة التي تم التحقق منها",
+  "validatedValue": "القيمة التي تم التحقق من صحتها",
+  "indicator": "مؤشر",
+  "attribued_points": "النقاط المنسوبة",
+  "available_points": "النقاط المتاحة",
+  "percentage": "نسبة مئوية",
+  "about": "مقاربة الأداء ",
+  "data_pbf": "احصائيات",
+  "docs": "وثائق",
+  "news": "أخبار",
+  "management": "إدارة",
+  "field_required": "هدا الحقل اجباري",
+  "username_required": "اسم المستخدم ضروري",
+  "password_required": "كلمة المرور مطلوبة",
+  "user": "مستخدم",
+  "admin": "مدير",
+  "unauthorized": "أنت غير مفوض لدخول هذه الصفحة",
+  "à": "إلى",
+  "fileelements_empty": "عذرا! نوع هذا الملف لا يحتوي على أي عناصر",
+  "linked_links": "المواقع المرتبطة",
+  "filetype_avril": "نوع ملف أبريل",
+  "data_completion": "اكتمال البيانات",
+  "saisis": "تم الادخال",
+  "non-saisis": "لم يتم ادخالها",
+  "quantity": "كمية",
+  "quality": "جودة",
+  "dataCompleteness_fosa": "اكتمال البيانات",
+  "Statut": "حالة",
+  "Action": "الخيارات",
+  "region": "منطقة",
+  "Resp": "مسؤول",
+  "logs_resume": "ملخص السجلات",
+  "Geo": "جيو",
+  "Photo": "صورة",
+  "zone": "منطقة",
+  "Region": "ولاية",
+  "Zone sanitaire": "منطقة صحية",
+  "Pop": "سكان",
+  "Date": "تاريخ",
+  "Wilayas": "الولايات",
+  "sante_ministry": "وزارة الصحة",
+  "camec": "مركزية شراء الأدوية",
+  "profile": "الملف الشخصي",
+  "Tamchikitt": "تامشكط",
+  "Dhar": "اظهر",
+  "Devaa": "دفعا",
+  "Tintane U1": "الطينطان U1",
+  "Agharghar": "أغرغار",
+  "Timbedra": "تمبدغة",
+  "Djigueni": "جيكني",
+  "Amourj": "آمرج",
+  "Walata": "ولاتة",
+  "Nema": "النعمة",
+  "Bassikounou": "باسكنو",
+  "Khabou": "خابو",
+  "Ould yenja": "ول ينج",
+  "Selibaby": "سيليبابي",
+  "Wompou": "ومبو",
+  "Adel Begrou": "عدل البكرو",
+  "Koubeni": "كوبني",
+  "Touil": "اطويل",
+  "Aioun": "لعيون",
+  "done": "إلى النهاية",
+  "next": "التالي",
+  "previous": "السابق",
+  "Responsable": "مسؤول",
+  "Tintane": "الطينطان ",
+  "Hodh Echarghi": "الحوض الشرقي",
+  "Guidimakha": "كيدي ماغا",
+  "Indicateurs Essentiels": "المؤشرات الأساسية",
+  "Add file": "إضافة ملف",
+  "Hodh EL Gharbi": "الحوض الغربي",
+  "Entitys": "المؤسسات",
+  "File Type": "نوع الملف",
+  "Edit file": "تحرير ملف",
+  "View file": "عرض الملف",
+  "dhis2Uid": "معرف Dhis2",
+  "Frequency": "التكرار",
+  "Element": "مؤشر",
+  "Créé avec succès": "تم الإنشاء بنجاح",
+  "Price": "السعر",
+  "View file type": "عرض نوع الملف",
+  "Edit file type": "تحرير نوع الملف",
+  "Add file type": "إضافة نوع الملف",
+  "filetype created successfully": "تم إنشاء نوع الملف بنجاح",
+  "filetype updated successfully": "تم تحديث نوع الملف بنجاح",
+  "Element already exists": "العنصر موجود بالفعل",
+  "File type frequency created successfully": "تم إنشاء تكرار نوع الملف بنجاح",
+  "Error": "خطأ",
+  "element created successfully": "تم إنشاء العنصر بنجاح",
+  "element updated successfully": "تم تحديث العنصر بنجاح",
+  "Name is required": "الاسم مطلوب",
+  "Title is required": "العنوان مطلوب",
+  "View element": "عرض مؤشر",
+  "Modification de type de fichier": "تم تحديث العنصر بنجاح",
+  "Création avec succès": "تم الإنشاء بنجاح",
+  "Une fichier avec ces paramètres existe déjà": "يوجد ملف مع هذه المعلمات بالفعل",
+  "Échec de la création": "فشل في الإنشاء",
+  "Modification avec succès": "تم تحديث بنجاح",
+  "Échec de la modification": "فشل التعديل",
+  "Suppression avec succès": "تم الحذف بنجاح",
+  "Échec de la suppression": "فشل الحذف",
+  "Edit element": "تحرير مؤشر",
+  "Add element": "إضافة مؤشر",
+  "populationCount is required": "عدد السكان مطلوب",
+  "populationYear is required": "سنة السكان مطلوبة",
+  "openingDate is required": "تاريخ الافتتاح مطلوب",
+  "View zone": "عرض المنطقة",
+  "Edit zone": "تحرير المنطقة",
+  "Add zone": "إضافة منطقة",
+  "EntityClasse created successfully": "تم إنشاء منطقة بنجاح",
+  "EntityClasse updated successfully": "تم تحديث المنطقة بنجاح",
+  "ContactPerson is required": "الشخص الاتصال مطلوب",
+  "BankAccount is required": "الحساب المصرفي مطلوب",
+  "zoneId is required": "المنطقة الصحية مطلوبة",
+  "Entity created successfully": "تم إنشاء الكيان بنجاح",
+  "Entity updated successfully": "تم تحديث الكيان بنجاح",
+  "View entity": "عرض الكيان",
+  "Edit entity": "تحرير الكيان",
+  "Add entity": "إضافة الكيان",
+  "createSuccess": "تم إنشاء المستوى بنجاح",
+  "updateSuccess": "تم تحديث المستوى بنجاح",
+  "viewTitle": "عرض المستوى",
+  "editTitle": "تحرير المستوى",
+  "addTitle": "إضافة مستوى",
+  "Shortname": "الاسم المختصر",
+  "Shortname is required": "الاسم المختصر مطلوب",
+  "view": "عرض",
+  "Edit": "تعديل",
+  "Contract Type": "نوع العقد",
+  "View contract": "عرض العقد",
+  "Edit contract": "تعديل العقد",
+  "Add contract": "إضافة عقد",
+  "Contract created successfully": "تم إنشاء العقد بنجاح",
+  "Contract updated successfully": "تم تحديث العقد بنجاح",
+  "Contract": "العقد",
+  "View contact": "عرض جهة الاتصال",
+  "Edit contact": "تعديل جهة الاتصال",
+  "Add contact": "إضافة جهة اتصال",
+  "Contact created successfully": "تم إنشاء جهة الاتصال بنجاح",
+  "Contact updated successfully": "تم تحديث جهة الاتصال بنجاح",
+  "Entites": "الإدارات",
+  "Administratives": "الحكومية",
+  "Author": "المؤلف",
+  "why_pbf": "لماذا التمويل القائم على النتائج في موريتانيا؟",
+  "read_more": "اقرأ المزيد",
+  "fosaCardTitle": "التكوينات الصحية (FOSA)",
+  "eaCardTitle": "الكيانات الإدارية (EA)",
+  "about_pbf_date": "30 أبريل 2019",
+  "key_data": "البيانات المفتاحية",
+  "Advanced Filters of Data PBF": "التصفية المتقدمة للبيانات",
+  "realtime_results": "النتائج المحينة",
+  "documentation": "توثيق",
+  "download": "تحميل",
+  "Formations": "تمرين",
+  "about_pbf_desc": "وصلت أهداف الألفية للتنمية إلى نهاية عام 2015 من خلال التقدم الملحوظ في العديد من المجالات بما في ذلك الصحة.ومع ذلك ، كان هذا التقدم محدودًا بشكل خاص فيما يتعلق بوفاة الأم.في الواقع ، فإن نسبة وفيات الأمهات ، على الرغم من أنها شهدت انخفاضًا من 687 لكل 100 ألف ولادة حية ...",
+  "bank_details": "تفاصيل البنك",
+  "target_populations": "الفئات السكانية المستهدفة",
+  "zone_sanitaitre": "المنطقة الصحية",
+  "type": "الفئة",
+  "status": "الحالة",
+  "Radhy": "الراظي",
+  "Geit Eteidoum": "كيت التيدوم",
+  "PS MARVEK": "النقطة الصحية مرفك",
+  "PS BOUGRELLY": "النقطة الصحية بوكرلي",
+  "PS Levde (Lifde)": "النقطة الصحية لفدة (ليفدة)",
+  "PS AGUEINITT": "النقطة الصحية آكوينيت",
+  "PS EGUEMOUN": "النقطة الصحية أكمون",
+  "PS GUEBENOUAMER": "النطقة الصحية كب انوامر",
+  "PS GUELLAB": "PS كلاب",
+  "PS SAVA": "النقطة الصحية الصفا",
+  "PS EL MARA": "المنطقة الصحية المارة",
+  "Mabrouk": "مبروك",
+  "Néma": "النعمة",
+  "Bonus_d'équité": "مكافأة الأسهم",
+  "fonction": "وظيفة",
+  "telephone": "هاتف",
+  "public": "عام",
+  "private": "خاص",
+  "Password Confirmation": "تأكيد كلمة المرور",
+  "groupe": "مجموعة",
+  "Active": "نشيط",
+  "Password is required": "كلمة المرور مطلوبة",
+  "Image": "صورة",
+  "Publie": "نشر",
+  "Page d'accueill": "الصفحة الرئيسية",
+  "access management": "إدارة الوصول",
+  "shortname": "الاسم المختصر",
+  "units": "وحدات",
+  "vartype": "نوع البيانات",
+  "is_required": "مطلوب",
+  "orderNumber": "رقم ترتيبي",
+  "bonus": "مكافأة",
+  "Add File Type to this indicator": "إضافة نوع الملف إلى هذا المؤشر",
+  "name": "الاسم",
+  "groupes": "مجموعات",
+  "Add Contact to this Element": "إضافة جهة اتصال إلى هذا العنصر",
+  "Les Contacts de l'entité": "جهات اتصال للكيان",
+  "translate": "ترجمة",
+  "Translate": "ترجمة",
+  "Translation Modal": "مربع الترجمة",
+  "save": "حفظ",
+  "cancel": "إلغاء",
+  "mode_entry_strict": "الوضع الصارم لإدخال البيانات",
+  "start_day_entry": "بدء إدخال البيانات من اليوم",
+  "end_day_entry": "نهاية إدخال البيانات من اليوم",
+  "Are you sure you want to update all configs?": "هل أنت متأكد أنك تريد تحديث جميع التكوينات؟",
+  "Are you sure you want to delete this item?": "هل أنت متأكد أنك تريد حذف هذا العنصر؟",
+  "permission_requests": "طلبات الإذن",
+  "generalSettings": "الإعدادات العامة",
+  "Add Contract to this Element": "إضافة عقد إلى هذا العنصر",
+  "number": "عدد",
+  "Add Contact to this Contract": "إضافة جهة اتصال إلى هذا العقد",
+  "contracttype": "نوع العقد",
+  "ecart": "الفرق",
+  "trimestre": "ربع سنوي",
+  "point_disponible": "النقاط المتاحة",
+  "point_attribued": "النقاط المنسوبة",
+  "updated successfully": "تم التحديث بنجاح",
+  "Failed to update": "فشل التحديث",
+  "created successfully": "تم الإنشاء بنجاح",
+  "deleted successfully": "تم الحذف بنجاح",
+  "Welcome to": "مرحبا بك في",
+  "Remember me": "تذكرنى",
+  "Si vous avez des problèmes de connexion, veuillez contacter le support": "إذا كان لديك مشاكل في تسجيل الدخول ، فيرجى الاتصال بالدعم",
+  "Change": "تغيير",
+  "photo": "صورة",
+  "add": "إضافة",
+  "not_seted": "غير محدد",
+  "Add Contract": "إضافة عقد"
+}
