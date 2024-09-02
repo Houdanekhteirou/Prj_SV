@@ -23,7 +23,7 @@ class CustomDocument extends Document {
             href='https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap'
           />
           <link rel='apple-touch-icon' sizes='180x180' href='/logos/mr_logo.png' />
-          <link rel='shortcut icon' href='/images/logo_rim.svg' />
+          <link rel='shortcut icon' href='/images/sv_.png' />
         </Head>
         <body>
           <Main />

@@ -46,7 +46,7 @@ const BlankLayoutAppBar = () => {
         }}
       >
         <LinkStyled href='/'>
-          <img src='/images/logo_rim.svg' alt='logo' width='32' height='32' />
+          <img src='/images/logo_ri.svg' alt='logo' width='32' height='32' />
           <Typography
             variant='h6'
             sx={{

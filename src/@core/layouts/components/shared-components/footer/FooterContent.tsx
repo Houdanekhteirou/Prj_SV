@@ -22,7 +22,7 @@ const FooterContent = () => {
   return (
     <Box sx={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between' }}>
       <Typography sx={{ mr: 2 }}>
-        {`© ${new Date().getFullYear()}, `}, {t('Portail PBF MAURITANIE, Tous droits réservés')}
+        {`© ${new Date().getFullYear()}, `}, {t('Suit Evaluation, Tous droits réservés')}
       </Typography>
       {hidden ? null : (
         <Box sx={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', '& :not(:last-child)': { mr: 4 } }}>
