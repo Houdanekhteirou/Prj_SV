@@ -1,6 +1,6 @@
 export default {
   meEndpoint: '/auth/me',
-  loginEndpoint: `/api/authenticate`,
+  loginEndpoint: `/authenticate`,
   registerEndpoint: '/jwt/register',
   storageTokenKeyName: 'accessToken',
   userStorangeKeyName: 'UserInformation',

@@ -70,49 +70,49 @@ const AdminDashboard = () => {
     return a
   }, [data, isLoading])
 
-  if (isLoading || auth.loading) return <FallbackSpinner />
+  // if (isLoading || auth.loading) return <FallbackSpinner />
 
   return (
     <div className='grid grid-cols-1 md:grid-cols-2 gap-4 w-full p-2 mb-5 gap-x-4 gap-y-4 '>
       {' '}
       {/* Grid show two two */}
-      <CanViewComponent
+      {/* <CanViewComponent
         requiredPermissions={[PERMISSIONS.dashboard.completudeFileType]}
         userPermissions={auth.user?.authorities || []}
-      >
-        <CompletudeFileType data={data} year={year} setYear={setYear} quarter={quarter} setQuarter={setQuarter} />
-      </CanViewComponent>
+      > */}
+      <CompletudeFileType data={data} year={year} setYear={setYear} quarter={quarter} setQuarter={setQuarter} />
+      {/* </CanViewComponent> */}
       <div className='grid gap-4 grid-cols-1 w-full gap-x-4 gap-y-4 '>
-        <CanViewComponent
+        {/* <CanViewComponent
           requiredPermissions={[PERMISSIONS.dashboard.qualityQuantiyChart]}
           userPermissions={auth.user?.authorities || []}
-        >
-          <QuantQualCharts
-            data={{
-              qualityData,
-              quantiyData,
-              TotalQuality,
-              TotalQuantity
-            }}
-            year={year}
-            quarter={quarter}
-          />
-        </CanViewComponent>
+        > */}
+        <QuantQualCharts
+          data={{
+            qualityData,
+            quantiyData,
+            TotalQuality,
+            TotalQuantity
+          }}
+          year={year}
+          quarter={quarter}
+        />
+        {/* </CanViewComponent> */}
         {/* <ApexRadialBarChart /> */}
-        <CanViewComponent
+        {/* <CanViewComponent
           requiredPermissions={[PERMISSIONS.dashboard.logs]}
           userPermissions={auth.user?.authorities || []}
-        >
-          <LogDashboard />
-        </CanViewComponent>
+        > */}
+        <LogDashboard />
+        {/* </CanViewComponent> */}
       </div>
       <div className='col-span-full '>
-        <CanViewComponent
+        {/* <CanViewComponent
           requiredPermissions={[PERMISSIONS.dashboard.completudeFosa]}
           userPermissions={auth.user?.authorities || []}
-        >
-          <CompletudeFOSA />
-        </CanViewComponent>
+        > */}
+        <CompletudeFOSA />
+        {/* </CanViewComponent> */}
       </div>
       <div className='col-span-full '>{/* <ChartsStepper /> */}</div>
     </div>

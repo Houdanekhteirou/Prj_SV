@@ -2,6 +2,7 @@ import axios from 'axios'
 import axiosInstance from 'src/api/axiosInstance'
 import { fetchZonesByUser } from './organizations/zones'
 
+
 export const authenticate = async ({
   username,
   password
@@ -10,41 +11,30 @@ export const authenticate = async ({
   password: string
 }): Promise<{
   success: boolean
-  msg?: string
+  role?: string
+  userId?: number
+  email?: string
   token?: string
-  account?: any
-  userZones?: any
+  msg?: string
 }> => {
   try {
-    //
-    const res = await axios.post(`/api/authenticate`, {
-      username,
-      password
-    })
+    const res = await axios.post(`${process.env.NEXT_PUBLIC_API_URP}/authenticate`, { username, password })
 
-    if (res.data.id_token) {
-      const account = await axios.get(`/api/account`, {
-        headers: { Authorization: `Bearer ${res.data.id_token}` }
-      })
-
-      const userZones = (
-        await axios.get(`/api/pbf-organization-zones-by-user`, {
-          headers: { Authorization: `Bearer ${res.data.id_token}` }
-        })
-      ).data
-
-      return { success: true, token: res.data.id_token, account: account.data, userZones: userZones }
+    if (res.status === 200) {
+      const { token, role, userId, email } = res.data
+      if (token) {
+        return { success: true, token, role, userId, email }
+      } else {
+        return { success: false, msg: 'no_token_received' }
+      }
     } else {
-      console.error('Authentication failed. No token received.')
-
-      return { success: false }
+      return { success: false, msg: 'authentication_failed' }
     }
   } catch (error) {
-    console.error('Error during authentication:', error)
-
     return { success: false, msg: 'server_error' }
   }
 }
+
 
 export const getAccount = async (): Promise<any> => {
   try {
