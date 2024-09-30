@@ -404,3 +404,18 @@ export type Planification = {
   translations_origine: string
   translations: ApiTranslation[]
 }
+
+export type Project = {
+  id: number
+  uid: string
+  title: string
+  description: string
+  createdAt: string
+  updatedAt: string
+  deletedAt: string
+  createdbyId: number
+  updatedbyId: number
+  deletedbyId: number
+  translations_origine: string
+  translations: ApiTranslation[]
+}

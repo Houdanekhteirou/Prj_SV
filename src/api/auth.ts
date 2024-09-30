@@ -2,6 +2,9 @@ import axios from 'axios'
 import axiosInstance from 'src/api/axiosInstance'
 import { fetchZonesByUser } from './organizations/zones'
 
+import { RegisterParams } from 'src/context/types'
+
+
 
 export const authenticate = async ({
   username,
@@ -34,6 +37,26 @@ export const authenticate = async ({
     return { success: false, msg: 'server_error' }
   }
 }
+
+//
+
+
+export const register = async (params: RegisterParams) => {
+  try {
+    const response = await axios.post(`${process.env.NEXT_PUBLIC_API_URP}/sign-up`, params)
+    console.log('process.env.NEXT_PUBLIC_API_URL',process.env.NEXT_PUBLIC_API_URL);
+
+    // Assuming a 200 status code indicates success
+    return { success: true, data: response.data };
+  } catch (error) {
+    return {
+      success: false,
+      message: error.response?.data?.message || 'Registration failed'
+    };
+    // return { success: false, message: error.response?.data?.message || 'Registration failed' }
+  }
+}
+
 
 
 export const getAccount = async (): Promise<any> => {

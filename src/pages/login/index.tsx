@@ -1,4 +1,5 @@
 import { yupResolver } from '@hookform/resolvers/yup'
+import { Link } from '@mui/material'
 import Alert from '@mui/material/Alert'
 import Box, { BoxProps } from '@mui/material/Box'
 import Button from '@mui/material/Button'
@@ -111,6 +112,7 @@ const LoginPage = () => {
   //     })
   //   }
   // }
+
   const onSubmit = (data: FormData) => {
     const { username, password } = data
     setIsSubmitting(true)
@@ -263,6 +265,17 @@ const LoginPage = () => {
                 {t('login')}
               </Button>
               <Box sx={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap', justifyContent: 'center' }}></Box>
+
+              <Box sx={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap', justifyContent: 'center' }}>
+                <Typography variant='body2' sx={{ mr: 2 }}>
+                  {t("Vous n'avez pas de compte ?")}
+                </Typography>
+                <Typography variant='body2'>
+                  <Link href='/registre'>
+                    <a>{t("S'inscrire")}</a>
+                  </Link>
+                </Typography>
+              </Box>
             </form>
           </BoxWrapper>
         </Box>

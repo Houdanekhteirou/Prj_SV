@@ -10,15 +10,21 @@ const navigation = (): VerticalNavItemsType => {
       path: '/admin'
     },
     {
-      title: 'entry',
+      title: 'Composante',
       icon: 'mdi:database',
       path: '/admin/data/data-entry'
       // requiredPermissions: [PERMISSIONS.file.read]
     },
     {
-      title: 'reports',
-      path: '/admin/reports',
-      icon: 'mdi:file-document-outline'
+      title: 'Volet',
+      icon: 'mdi:file-document-outline',
+      path: '/admin/data/file-types'
+
+    },
+    // {
+      // title: 'reports',
+      // path: '/admin/reports',
+      // icon: 'mdi:file-document-outline'
       // requiredPermissions: [
       //   PERMISSIONS.report.show,
       //   PERMISSIONS.report.factureMensuelleEcd,
@@ -34,62 +40,61 @@ const navigation = (): VerticalNavItemsType => {
       //   PERMISSIONS.report.quarterlyPaymentOrder,
       //   PERMISSIONS.report.rapportBm
       // ]
-    },
+    // },
+    // {
+    //   title: 'Data',
+    //   // requiredPermissions: [
+    //   //   PERMISSIONS.fileType.read,
+    //   //   PERMISSIONS.element.read,
+    //   //   PERMISSIONS.validation.read,
+    //   //   PERMISSIONS.completeness.read
+    //   // ],
+    //   children: [
+    //     {
+    //       title: 'Validation',
+    //       icon: 'mdi:database-check',
+    //       path: '/admin/data/validation',
+    //       // requiredPermissions: [PERMISSIONS.validation.read]
+    //     },
+    //     // {
+    //     //   title: 'Publication',
+    //     //   icon: 'entypo:publish',
+    //     //   path: '/admin/data/public',
+    //     //   requiredPermissions: [PERMISSIONS.validation.read]
+    //     // },
+    //     {
+    //       title: 'File Types',
+    //       icon: 'carbon:data-class',
+    //       path: '/admin/data/file-types',
+    //       // requiredPermissions: [PERMISSIONS.fileType.read]
+    //     },
+    //     {
+    //       title: 'Elements',
+    //       icon: 'grommet-icons:indicator',
+    //       // requiredPermissions: [PERMISSIONS.element.read, PERMISSIONS.element.read],
+    //       children: [
+    //         {
+    //           title: 'Elements',
+    //           path: '/admin/data/elements',
+    //           // requiredPermissions: [PERMISSIONS.element.read]
+    //         },
+    //         {
+    //           title: 'element_groups',
+    //           path: '/admin/data/elements-groups',
+    //           // requiredPermissions: [PERMISSIONS.element.read]
+    //         }
+    //       ]
+    //     },
+    //     {
+    //       title: 'Completeness',
+    //       path: '/admin/completude',
+    //       icon: 'fluent-mdl2:completed',
+    //       // requiredPermissions: [PERMISSIONS.completeness.read]
+    //     }
+    //   ]
+    // },
     {
-      title: 'Data',
-      // requiredPermissions: [
-      //   PERMISSIONS.fileType.read,
-      //   PERMISSIONS.element.read,
-      //   PERMISSIONS.validation.read,
-      //   PERMISSIONS.completeness.read
-      // ],
-      children: [
-        {
-          title: 'Validation',
-          icon: 'mdi:database-check',
-          path: '/admin/data/validation',
-          // requiredPermissions: [PERMISSIONS.validation.read]
-        },
-        // {
-        //   title: 'Publication',
-        //   icon: 'entypo:publish',
-        //   path: '/admin/data/public',
-        //   requiredPermissions: [PERMISSIONS.validation.read]
-        // },
-        {
-          title: 'File Types',
-          icon: 'carbon:data-class',
-          path: '/admin/data/file-types',
-          // requiredPermissions: [PERMISSIONS.fileType.read]
-        },
-        {
-          title: 'Elements',
-          icon: 'grommet-icons:indicator',
-          // requiredPermissions: [PERMISSIONS.element.read, PERMISSIONS.element.read],
-          children: [
-            {
-              title: 'Elements',
-              path: '/admin/data/elements',
-              // requiredPermissions: [PERMISSIONS.element.read]
-            },
-            {
-              title: 'element_groups',
-              path: '/admin/data/elements-groups',
-              // requiredPermissions: [PERMISSIONS.element.read]
-            }
-          ]
-        },
-        {
-          title: 'Completeness',
-          path: '/admin/completude',
-          icon: 'fluent-mdl2:completed',
-          // requiredPermissions: [PERMISSIONS.completeness.read]
-        }
-      ]
-    },
-    ,
-    {
-      title: 'Organizations',
+      title: 'Activité',
       icon: 'charm:organisation',
       // requiredPermissions: [
       //   PERMISSIONS.zone.read,
@@ -249,28 +254,28 @@ const navigation = (): VerticalNavItemsType => {
         }
       ]
     },
-    {
-      title: 'financement',
-      icon: 'mdi:finance',
-      // requiredPermissions: [PERMISSIONS.bank.read, PERMISSIONS.budget.read],
-      children: [
-        {
-          title: 'bankAccounts',
-          path: '/admin/banks/Account',
-          // requiredPermissions: [PERMISSIONS.bankAccounts.read]
-        },
-        {
-          title: 'Banks',
-          path: '/admin/banks/banks',
-          // requiredPermissions: [PERMISSIONS.bank.read]
-        },
-        {
-          title: 'Budgets',
-          path: '/admin/banks/budgets',
-          // requiredPermissions: [PERMISSIONS.budget.read]
-        }
-      ]
-    }
+    // {
+    //   title: 'financement',
+    //   icon: 'mdi:finance',
+    //   // requiredPermissions: [PERMISSIONS.bank.read, PERMISSIONS.budget.read],
+    //   children: [
+    //     {
+    //       title: 'bankAccounts',
+    //       path: '/admin/banks/Account',
+    //       // requiredPermissions: [PERMISSIONS.bankAccounts.read]
+    //     },
+    //     {
+    //       title: 'Banks',
+    //       path: '/admin/banks/banks',
+    //       // requiredPermissions: [PERMISSIONS.bank.read]
+    //     },
+    //     {
+    //       title: 'Budgets',
+    //       path: '/admin/banks/budgets',
+    //       // requiredPermissions: [PERMISSIONS.budget.read]
+    //     }
+    //   ]
+    // }
   ]
 }
 

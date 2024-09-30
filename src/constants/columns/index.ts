@@ -28,15 +28,32 @@ export const col_file = [
   { id: 'updatedAt', name: 'updated_at' }
 ]
 
-export const col_zone = [
+// export const col_zone = [
+//   { id: 'id', name: 'id' },
+//   { id: 'name', name: 'name' },
+//   { id: 'populationCount', name: 'Population Count' },
+//   { id: 'populationYear', name: 'Population Year' },
+//   { id: 'openingDate', name: 'Opening Date' },
+//   { id: 'closedDate', name: 'Closed Date' },
+//   { id: 'parentId', name: 'Parent Id' },
+//   { id: 'levelId', name: 'Level Id' }
+// ]
+
+export const col_project = [
   { id: 'id', name: 'id' },
   { id: 'name', name: 'name' },
-  { id: 'populationCount', name: 'Population Count' },
-  { id: 'populationYear', name: 'Population Year' },
-  { id: 'openingDate', name: 'Opening Date' },
-  { id: 'closedDate', name: 'Closed Date' },
-  { id: 'parentId', name: 'Parent Id' },
-  { id: 'levelId', name: 'Level Id' }
+  { id: 'description', name: 'Description' },
+  { id: 'startDate', name: 'StartDate' },
+  { id: 'endDate', name: 'EndDate' },
+  { id: 'projectPeriod', name: 'Project Period' },
+  { id: 'status', name: 'Status' },
+  { id: 'projectTeam', name: 'Project Team' },
+  { id: 'projectClient', name: 'Project Client' },
+  { id: 'projectBudget', name: 'Project Budget' },
+  { id: 'projectProfit', name: 'Project Profit' },
+  { id: 'projectRisk', name: 'projectRisk' },
+  { id: 'equipes', name: 'Equipes' },
+  { id: 'objectives', name: 'Objectives' }
 ]
 export const col_levels = [
   { id: 'id', name: 'id' },

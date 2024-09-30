@@ -12,7 +12,7 @@ const AddButton = ({ requiredPermissions, text = 'Neew', ...props }) => {
   const router = useRouter()
   const pathname = usePathname()
   const auth = useAuth()
-  const { authorities } = auth.user
+  // const { authorities } = auth.user
   const { t } = useTranslation()
 
   return (
@@ -22,7 +22,7 @@ const AddButton = ({ requiredPermissions, text = 'Neew', ...props }) => {
         size='large'
         color='primary'
         style={{
-          display: !hasPermission(authorities, requiredPermissions) ? 'none' : 'flex',
+          // display: !hasPermission(authorities, requiredPermissions) ? 'none' : 'flex',
           alignItems: 'center',
           gap: 2
         }}

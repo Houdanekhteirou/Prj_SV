@@ -2,7 +2,34 @@ import { getErrorMessage } from 'src/@core/utils/getErrorMessage'
 
 import { Zone } from 'src/types/apis'
 import { fetchOneLevelByItsLevel } from './levels'
-import axiosInstance from 'src/api/axiosInstance'
+// import axiosInstance from 'src/api/axiosInstance'
+
+
+
+import axios from 'axios'
+
+// Assuming `axiosInstance` is an instance of Axios with default settings
+const axiosInstance = axios.create({
+  baseURL: 'http://192.168.100.202:8888', // Make sure to set the base URL
+  headers: {
+    'Content-Type': 'application/json',
+    Authorization: `Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJob3VkYSIsImlhdCI6MTcyNTg5MDU0MCwiZXhwIjoyNTMzOTI1MDE3NDB9.d-OfKfE9MX_UySnCWRzi6dwocidXc6Dd1AC0QhDnQQU` // Include your token here
+  }
+})
+
+export const fetchZones = async (): Promise<{ data: Zone[]} | null> => {
+  try {
+    const res = await axios.get(`http://192.168.100.202:8888/projets`)
+    console.log('res.data.data', res.data.data)
+
+    return res.data
+  } catch (error) {
+    console.error(error)
+
+    return null
+
+  }
+}
 
 export const fetchAllZones = async (): Promise<Zone[] | null> => {
   try {
@@ -16,7 +43,7 @@ export const fetchAllZones = async (): Promise<Zone[] | null> => {
   }
 }
 
-export const fetchZones = async ({
+export const fetchZones2 = async ({
   pageNumber = 0,
   pageSize = 15,
   name = '',

@@ -86,7 +86,7 @@ function Bankes() {
               title={t('Banks')}
               total={data?.count}
               addButton={
-                <AddButton pathname={pathname} requiredPermissions={PERMISSIONS.bank.write} text={t('Add Bank')} />
+                <AddButton pathname={pathname}  text={t('Add Bank')} /> // requiredPermissions={PERMISSIONS.bank.write}
               }
             />
             <CardContent>
@@ -245,6 +245,6 @@ function Bankes() {
   )
 }
 
-Bankes.acl = [PERMISSIONS.bank.read]
+// Bankes.acl = [PERMISSIONS.bank.read]
 
 export default Bankes

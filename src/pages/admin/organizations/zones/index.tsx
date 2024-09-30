@@ -74,7 +74,7 @@ function Zones() {
             title={t('Zones')}
             total={data?.count}
             addButton={
-              <AddButton pathname={pathname} requiredPermissions={PERMISSIONS.zone.write} text={t('Add Zone')} />
+              <AddButton pathname={pathname} text={t('Add Zone')} /> // requiredPermissions={PERMISSIONS.zone.write}
             }
           />
           <CardContent>
@@ -150,5 +150,5 @@ function Zones() {
   )
 }
 
-Zones.acl = [PERMISSIONS.zone.read]
+// Zones.acl = [PERMISSIONS.zone.read]
 export default Zones

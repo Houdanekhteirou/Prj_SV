@@ -1,20 +1,10 @@
-// ** React Imports
 import { ReactNode, createContext, useEffect, useState } from 'react'
-
-// ** Next Import
 import { useRouter } from 'next/router'
-
-// ** Axios
 import axios from 'axios'
+import { authenticate, register as apiRegister } from 'src/api/auth'
+import { AuthValuesType, ErrCallbackType, LoginParams, UserDataType, RegisterParams } from './types'
 
-// ** Config
-import authConfig from 'src/configs/auth'
-
-// ** Types
-import { authenticate } from 'src/api/auth'
-import { AuthValuesType, ErrCallbackType, LoginParams, UserDataType } from './types'
-
-// ** Defaults
+// ** Default values
 const defaultProvider: AuthValuesType = {
   user: null,
   loading: true,
@@ -23,7 +13,7 @@ const defaultProvider: AuthValuesType = {
   login: () => Promise.resolve(),
   logout: () => Promise.resolve(),
   loginLoading: false,
-  zones: []
+  register: () => Promise.resolve()
 }
 
 const AuthContext = createContext(defaultProvider)
@@ -33,95 +23,83 @@ type Props = {
 }
 
 const AuthProvider = ({ children }: Props) => {
-  // ** States
   const [user, setUser] = useState<UserDataType | null>(defaultProvider.user)
   const [loading, setLoading] = useState<boolean>(defaultProvider.loading)
   const [loginLoading, setLoginLoading] = useState<boolean>(defaultProvider.loginLoading)
-
-  // ** Hooks
   const router = useRouter()
 
   useEffect(() => {
     const initAuth = async (): Promise<void> => {
-      const storedToken = window.localStorage.getItem(authConfig.storageTokenKeyName)!
+      const storedToken = window.localStorage.getItem('token')
 
       if (storedToken) {
         setLoading(true)
-        setUser(JSON.parse(window.localStorage.getItem(authConfig.userStorangeKeyName)!) as UserDataType)
+        setUser(JSON.parse(window.localStorage.getItem('user')!) as UserDataType)
         setLoading(false)
-
-        return
-        await axios
-          .get(authConfig.meEndpoint, {
-            headers: {
-              Authorization: storedToken
-            }
-          })
-          .then(async response => {
-            setLoading(false)
-            setUser({ ...response.data.userData })
-          })
-          .catch(() => {
-            localStorage.removeItem(authConfig.userStorangeKeyName)
-            localStorage.removeItem('refreshToken')
-            localStorage.removeItem('accessToken')
-            setUser(null)
-            setLoading(false)
-            if (authConfig.onTokenExpiration === 'logout' && !router.pathname.includes('login')) {
-              router.replace('/login')
-            }
-          })
       } else {
         setLoading(false)
       }
     }
 
     initAuth()
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const handleLogin = (params: LoginParams, errorCallback?: ErrCallbackType) => {
     setLoginLoading(true)
     authenticate(params)
-      .then(async response => {
+      .then(response => {
         if (!response.success || !response.token) {
-          errorCallback ? errorCallback(response) : null
-
+          errorCallback?.(response)
           return
         }
-        const userData = {
-          id: response.account.id,
-          role: 'admin',
-          password: 'admin',
-          fullName: response.account.firstName + ' ' + response.account.lastName,
-          username: response.account.login,
-          email: response.account.email,
-          authorities: response.account.authorities,
-          zones: response.userZones
-        }
-        params.rememberMe ? window.localStorage.setItem(authConfig.storageTokenKeyName, response.token) : null
-        const returnUrl = router.query.returnUrl
-        params.rememberMe ? window.localStorage.setItem(authConfig.userStorangeKeyName, JSON.stringify(userData)) : null
+
+        // Save token and user in localStorage
+        window.localStorage.setItem('token', response.token)
+        const userData = { role: response.role, userId: response.userId, email: response.email }
+        window.localStorage.setItem('user', JSON.stringify(userData))
 
         setUser(userData)
         setLoginLoading(false)
 
-        const redirectURL = returnUrl && returnUrl !== '/admin' ? returnUrl : '/admin'
-
-        router.replace(redirectURL as string)
+        router.replace('/admin')
       })
-
       .catch(err => {
         setLoginLoading(false)
-        if (errorCallback) errorCallback(err)
+        errorCallback?.(err)
       })
   }
 
   const handleLogout = () => {
     setUser(null)
-    window.localStorage.removeItem(authConfig.userStorangeKeyName)
-    window.localStorage.removeItem(authConfig.storageTokenKeyName)
+    window.localStorage.removeItem('user')
+    window.localStorage.removeItem('token')
     router.replace('/login')
+  }
+
+  const handleRegister = (params: RegisterParams, errorCallback?: ErrCallbackType) => {
+    setLoginLoading(true)
+    apiRegister(params)
+      .then(response => {
+        if (!response.success || !response.token) {
+          errorCallback?.(response)
+          return
+        }
+
+        // Save token and user in localStorage after successful registration
+        window.localStorage.setItem('token', response.token)
+        const userData = { role: response.role, userId: response.userId, email: response.email }
+        window.localStorage.setItem('user', JSON.stringify(userData))
+
+        setUser(userData)
+        setLoginLoading(false)
+
+        // Redirect to dashboard or wherever after registration
+        router.replace('/dashboard')
+      })
+      .catch(err => {
+        setLoginLoading(false)
+        errorCallback?.(err)
+      })
   }
 
   const values = {
@@ -131,7 +109,8 @@ const AuthProvider = ({ children }: Props) => {
     setLoading,
     login: handleLogin,
     logout: handleLogout,
-    loginLoading
+    loginLoading,
+    register: handleRegister
   }
 
   return <AuthContext.Provider value={values}>{children}</AuthContext.Provider>

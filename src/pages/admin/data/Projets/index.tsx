@@ -50,13 +50,10 @@ const Projects = () => {
     queryKey: ['projects'],
     queryFn: async () => {
       const res = await fetchAllProjects()
-      console.log('res', res) // Make sure this logs the correct array
-
-      const newData = res?.map(el => ({
+      const newData = res?.data.map(el => ({
         ...el,
         createdAt: new Date(el.createdAt).toLocaleDateString('fr')
       }))
-      console.log('newData', newData)
 
       return { data: newData }
     }
@@ -80,16 +77,16 @@ const Projects = () => {
               name: 'Edit',
               icon: 'mdi:pencil-outline',
               handler: id => router.push(`/admin/data/data-entry/edit/${id}?entityClass=${entityClass}`),
-              color: 'primary'
-              // requiredPermissions: [PERMISSIONS.file.update]
+              color: 'primary',
+              requiredPermissions: [PERMISSIONS.file.update]
             },
             {
               name: 'Delete',
               icon: 'mdi:delete-outline',
               handler: id => handleDelete(id),
               color: 'red',
-              confirmation: true
-              // requiredPermissions: [PERMISSIONS.file.delete]
+              confirmation: true,
+              requiredPermissions: [PERMISSIONS.file.delete]
             },
             {
               name: 'View',

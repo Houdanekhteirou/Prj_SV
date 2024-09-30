@@ -27,7 +27,7 @@ const Home = () => {
     }
   })
 
-  const Map = React.useMemo(() => dynamic(() => import('src/@core/components/map/MapComponent'), { ssr: false }), [])
+  // const Map = React.useMemo(() => dynamic(() => import('src/@core/components/map/MapComponent'), { ssr: false }), [])
 
   return (
     <div className=''>

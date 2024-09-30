@@ -15,6 +15,12 @@ export const schema_zone = yup.object().shape({
   openingDate: yup.date().required('required_fieldd')
 })
 
+export const schema_project = yup.object().shape({
+  name: yup.string().required('required_field'),
+  description: yup.string().required('required_field')
+  
+})
+
 export const schema_levels = yup.object().shape({
   title: yup.string().required('required_field'),
   name: yup.string().required('required_field')
